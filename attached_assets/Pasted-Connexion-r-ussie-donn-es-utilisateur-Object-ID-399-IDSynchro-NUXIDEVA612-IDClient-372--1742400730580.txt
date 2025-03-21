@@ -1,0 +1,57 @@
+Connexion réussie, données utilisateur: 
+Object {ID: 399, IDSynchro: "NUXIDEVA612", IDClient: 372, ConfigConnecteur: "<?xml version="1.0" encoding="UTF-8"?>↵<Connexion>↵  <Complement>↵   …", Premium: 1, …}
+ProtectedRoute - Auth state: 
+Object {user: null, isLoading: false}
+Utilisateur déjà connecté, redirection vers / 
+Object {ID: 399, IDSynchro: "NUXIDEVA612", IDClient: 372, ConfigConnecteur: "<?xml version="1.0" encoding="UTF-8"?>↵<Connexion>↵  <Complement>↵   …", Premium: 1, …}
+ProtectedRoute - Auth state: 
+Object {user: {…}, isLoading: false}
+🔄 [API] Exécution requête /api/user
+🔄 [API] Réponse /api/user: 
+Object {status: 200, ok: true}
+🔄 [API] Données reçues /api/user: 
+Object {ID: 399, IDSynchro: "NUXIDEVA612", IDClient: 372, ConfigConnecteur: "<?xml version="1.0" encoding="UTF-8"?>↵<Connexion>↵  <Complement>↵   …", Premium: 1, …}
+ProtectedRoute - Auth state: 
+Object {user: {…}, isLoading: false}
+ProtectedRoute - Auth state: 
+Object {user: {…}, isLoading: false}
+Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+Warning: Invalid prop &#x60;data-replit-metadata&#x60; supplied to &#x60;React.Fragment&#x60;. React.Fragment can only have &#x60;key&#x60; and &#x60;children&#x60; props.
+    at EditDialog (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/components/ui/import-history/edit-dialog.tsx:47:30)
+    at div
+    at main
+    at div
+    at div
+    at Provider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-U3PVDGQW.js?v=e73fd4f8:48:15)
+    at TooltipProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=e73fd4f8:61:5)
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/components/ui/sidebar.tsx:54:7
+    at div
+    at MainLayout (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/components/ui/layout.tsx:36:30)
+    at ImportHistoryPage (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/pages/import-history-page.tsx:69:27)
+    at Route (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=e73fd4f8:323:16)
+    at ProtectedRoute (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/lib/protected-route.tsx:23:31)
+    at Switch (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=e73fd4f8:379:17)
+    at AuthProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/hooks/use-auth.tsx:26:32)
+    at QueryClientProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=e73fd4f8:2805:3)
+    at App
+at EditDialog (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/components/ui/import-history/edit-dialog.tsx:47:30)
+at div
+at main
+at div
+at div
+at Provider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-U3PVDGQW.js?v=e73fd4f8:48:15)
+at TooltipProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=e73fd4f8:61:5)
+at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/components/ui/sidebar.tsx:54:7
+at div
+at MainLayout (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/components/ui/layout.tsx:36:30)
+at ImportHistoryPage (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/pages/import-history-page.tsx:69:27)
+at Route (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=e73fd4f8:323:16)
+at ProtectedRoute (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/lib/protected-route.tsx:23:31)
+at Switch (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=e73fd4f8:379:17)
+at AuthProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/hooks/use-auth.tsx:26:32)
+at QueryClientProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=e73fd4f8:2805:3)
+at App
+at t.value (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400

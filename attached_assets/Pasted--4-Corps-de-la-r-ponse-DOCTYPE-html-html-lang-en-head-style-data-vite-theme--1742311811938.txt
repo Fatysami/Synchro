@@ -1,0 +1,113 @@
+📝 [4] Corps de la réponse: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style data-vite-theme="" data-inject-first="">:root {
+      --background: 0 0% 100%;
+--foreground: 20 14.3% 4.1%;
+--muted: 60 4.8% 95.9%;
+--muted-foreground: 25 5.3% 44.7%;
+--popover: 0 0% 100%;
+--popover-foreground: 20 14.3% 4.1%;
+--card: 0 0% 100%;
+--card-foreground: 20 14.3% 4.1%;
+--border: 20 5.9% 90%;
+--input: 20 5.9% 90%;
+--primary: 200 15% 20%;
+--primary-foreground: 200 4% 97%;
+--secondary: 60 4.8% 95.9%;
+--secondary-foreground: 24 9.8% 10%;
+--accent: 60 4.8% 95.9%;
+--accent-foreground: 24 9.8% 10%;
+--destructive: 0 84.2% 60.2%;
+--destructive-foreground: 60 9.1% 97.8%;
+--ring: 20 14.3% 4.1%;
+--radius: 0.375rem;
+  }
+  .dark {
+      --background: 240 10% 3.9%;
+--foreground: 0 0% 98%;
+--muted: 240 3.7% 15.9%;
+--muted-foreground: 240 5% 64.9%;
+--popover: 240 10% 3.9%;
+--popover-foreground: 0 0% 98%;
+--card: 240 10% 3.9%;
+--card-foreground: 0 0% 98%;
+--border: 240 3.7% 15.9%;
+--input: 240 3.7% 15.9%;
+--primary: 200 15% 20%;
+--primary-foreground: 200 4% 97%;
+--secondary: 240 3.7% 15.9%;
+--secondary-foreground: 0 0% 98%;
+--accent: 240 3.7% 15.9%;
+--accent-foreground: 0 0% 98%;
+--destructive: 0 62.8% 30.6%;
+--destructive-foreground: 0 0% 98%;
+--ring: 240 4.9% 83.9%;
+--radius: 0.375rem;
+  }</style>
+
+    <script type="module">
+import { createHotContext } from "/@vite/client";
+const hot = createHotContext("/__dummy__runtime-error-plugin");
+
+function sendError(error) {
+  if (!(error instanceof Error)) {
+    error = new Error("(unknown runtime error)");
+  }
+  const serialized = {
+    message: error.message,
+    stack: error.stack,
+  };
+  hot.send("runtime-error-plugin:error", serialized);
+}
+
+window.addEventListener("error", (evt) => {
+  sendError(evt.error);
+});
+
+window.addEventListener("unhandledrejection", (evt) => {
+  sendError(evt.reason);
+});
+</script>
+
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <script type="module">"use strict";(()=>{var Y="0.0.7";function Ce(e,t){return e[13]=1,e[14]=t>>8,e[15]=t&255,e[16]=t>>8,e[17]=t&255,e}var ne=112,re=72,oe=89,ie=115,W;function Ae(){let e=new Int32Array(256);for(let t=0;t<256;t++){let n=t;for(let r=0;r<8;r++)n=n&1?3988292384^n>>>1:n>>>1;e[t]=n}return e}function Le(e){let t=-1;W||(W=Ae());for(let n=0;n<e.length;n++)t=W[(t^e[n])&255]^t>>>8;return t^-1}function Ne(e){let t=e.length-1;for(let n=t;n>=4;n--)if(e[n-4]===9&&e[n-3]===ne&&e[n-2]===re&&e[n-1]===oe&&e[n]===ie)return n-3;return 0}function Ie(e,t,n=!1){let r=new Uint8Array(13);t*=39.3701,r[0]=ne,r[1]=re,r[2]=oe,r[3]=ie,r[4]=t>>>24,r[5]=t>>>16,r[6]=t>>>8,r[7]=t&255,r[8]=r[4],r[9]=r[5],r[10]=r[6],r[11]=r[7],r[12]=1;let s=Le(r),i=new Uint8Array(4);if(i[0]=s>>>24,i[1]=s>>>16,i[2]=s>>>8,i[3]=s&255,n){let a=Ne(e);return e.set(r,a),e.set(i,a+13),e}else{let a=new Uint8Array(4);a[0]=0,a[1]=0,a[2]=0,a[3]=9;let o=new Uint8Array(54);return o.set(e,0),o.set(a,33),o.set(r,37),o.set(i,50),o}}var De="AAlwSFlz",xe="AAAJcEhZ",_e="AAAACXBI";function Me(e){let t=e.indexOf(De);return t===-1&&(t=e.indexOf(xe)),t===-1&&(t=e.indexOf(_e)),t}var se="[modern-screenshot]",C=typeof window<"u",He=C&&"Worker"in window,Re=C&&"atob"in window,Fe=C&&"btoa"in window,j=C?window.navigator?.userAgent:"",ae=j.includes("Chrome"),P=j.includes("AppleWebKit")&&!ae,V=j.includes("Firefox"),Pe=e=>e&&"__CONTEXT__"in e,Oe=e=>e.constructor.name==="CSSFontFaceRule",ke=e=>e.constructor.name==="CSSImportRule",v=e=>e.nodeType===1,_=e=>typeof e.className=="object",le=e=>e.tagName==="image",Ue=e=>e.tagName==="use",I=e=>v(e)&&typeof…
+✅ [Sauvegarde] Succès
+🔄 [API] Exécution requête /api/user
+ProtectedRoute - Auth state: 
+Object {user: {…}, isLoading: false}
+🔍 [Render] Sources affichées: 4
+[🔍 Block 0] Rendering with source: 
+Object {Provider: "SQLOLEDB", Serveur: "localhostebp", Nom_BDD: "DemoHouda_0895452f-b7c1-4c00-a316-c6a6d0ea4bf4", Lecture_Seule: "1", Utilisateur: "sauuuzz000", …}
+[🔍 Block 1] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+[🔍 Block 2] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+[🔍 Block 3] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+🔄 [API] Réponse /api/user: 
+Object {status: 200, ok: true}
+🔄 [API] Données reçues /api/user: 
+Object {ID: 399, IDSynchro: "NUXIDEVA612", IDClient: 372, ConfigConnecteur: "<?xml version="1.0" encoding="UTF-8"?>↵<Connexion>↵  <Complement>↵   …", Premium: 1, …}
+ProtectedRoute - Auth state: 
+Object {user: {…}, isLoading: false}
+🔍 [Render] Sources affichées: 4
+[🔍 Block 0] Rendering with source: 
+Object {Provider: "SQLOLEDB", Serveur: "localhostebp", Nom_BDD: "DemoHouda_0895452f-b7c1-4c00-a316-c6a6d0ea4bf4", Lecture_Seule: "1", Utilisateur: "sauuuzz000", …}
+[🔍 Block 1] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+[🔍 Block 2] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+[🔍 Block 3] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}

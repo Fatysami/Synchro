@@ -1,0 +1,15 @@
+{
+  "variant": "professional",
+  "primary": "#36599E",
+  "appearance": "light",
+  "radius": 0.25,
+  "colors": {
+    "button": {
+      "primary": {
+        "DEFAULT": "#36599E",
+        "hover": "#0A2A69",
+        "active": "#85A3DE"
+      }
+    }
+  }
+}

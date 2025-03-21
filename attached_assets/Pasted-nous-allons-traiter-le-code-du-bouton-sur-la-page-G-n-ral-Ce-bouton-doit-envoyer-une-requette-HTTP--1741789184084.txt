@@ -1,0 +1,33 @@
+nous allons traiter le code du bouton sur la page Général. Ce bouton doit envoyer une requette HTTP sur un adresse IP et un port que nous allons récupérer dans une Table de la base de données SYNCNUXIDEV. La Table en question se nomme DynDNS et dans la base SYNCNUXIDEV déjà configuré dans le .env Voici la structure de cette table
+IdDynDNS int
+IDSynchro Index varchar(50)
+IDSecondaire varchar(50)
+DateHeure datetime
+IP_NuxiAutomate varchar(50)
+Port varchar(15)
+NumVersion varchar(15)
+NetNomMachine varchar(50)
+
+Le clic sur le bouton doit faire le process suivant
+
+Contôler que le client est bien en licence Premium sinon l'informer qu'il faut être en premium pour cette fonctionnalité . La notion Premium est disponible à la lecture de l'authentification via AUTH_MYSQL sur la rubrique licences2.Premium si = 1 alors oui sinon licence non premium.
+Dans le cas ou le client est premium : Lire l'adresse IP et le Port à partir de la table DynDNS, la clé de recherche de l'enregistrement se fait comme toujours sur l'IDSynchro qui doit correspondre à l'identifiant de connexion. Si la rubrique DynDNS.DateHeure à plus de 24h alors il faut informer le client comme quoi sont service windows NuxiAutomate de son serveur semble arrêté. Si aucun enregistrement en retour de cette requête sql alors informer par un message "Vous ne disposez pas actuellement de NuxiAutomate, veuillez vous rapprocehr de Nuxilog pour procéder à son installation".
+Si l'adresse IP à été trouvé alors il faut composer l'URL et les paramètres à envoyer via cette requête HTTP en Get :
+il faut composer un XML à envoyer respectant cette structure :
+Automate.IDInterne_Demande = Générer un GUID correspondant à un identifiant de demande
+Automate.Instruction = "SYNCHRO"
+Automate.TimeStamp = DateHeure actuelle du système
+XMLAutomate.Automate.SYNCHRO.TypeSync = "C"
+XMLAutomate.Automate.SYNCHRO.Connecteur_Exe = Récupérer du XML de Config : Connexion.Info.Exe
+XMLAutomate.Automate.SYNCHRO.Connecteur_Indice = Récupérer du XML de Config : Connexion.Info.Serial
+XMLAutomate.Automate.SYNCHRO.LCommande3 = ""
+XMLAutomate.Automate.SYNCHRO.IDSynchro = récupéré depuis la requête SQL de l'adresse IP précédente. DynDNS.IDSynchro
+XMLAutomate.Automate.SYNCHRO.IDDeviceDemandeur = "Connecteur"
+
+Ensuite ce XML doit être transformé en chaine puis cette chaine encodée en base 64 sans RC pour être envoyé comme paramètre.
+La construction de l'URL est donc "http://" + DyncDNS.IP_NuxiAutomate + ":" + DynDNS.Port + "/" + XML_encodé_en_base_64_sans_rc
+
+StrEncodé = Encode(XMLConstruitChaîne(XMLAutomate,XMLMiseEnForme),encodeBASE64SansRC)
+sURL = "http://" + sIP_Automate + ":" + sPort_Automate + "/" + StrEncodé
+
+Le retour de cette requête HTTP est un texte qui doit être affiché dans un toast pour informer l'utilisateur

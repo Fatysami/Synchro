@@ -1,0 +1,55 @@
+ProtectedRoute - Auth state: 
+Object {user: {…}, isLoading: false}
+🔄 [API] Exécution requête /api/user
+🔄 [API] Réponse /api/user: 
+Object {status: 200, ok: true}
+🔄 [API] Données reçues /api/user: 
+Object {ID: 399, IDSynchro: "NUXIDEVA612", IDClient: 372, ConfigConnecteur: "<?xml version="1.0" encoding="UTF-8"?>↵<Connexion>↵  <Complement>↵   …", Premium: 1, …}
+ProtectedRoute - Auth state: 
+Object {user: {…}, isLoading: false}
+🔄 [API] Exécution requête /api/user
+Warning: Encountered two children with the same key, &#x60;PUZZ0001&#x60;. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    at div
+    at div
+    at div
+    at main
+    at div
+    at div
+    at Provider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-YRL5WAL7.js?v=202c1bb0:38:15)
+    at TooltipProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=202c1bb0:61:5)
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/components/ui/sidebar.tsx:54:7
+    at div
+    at MainLayout (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/components/ui/layout.tsx:36:30)
+    at FamilyExclusionsPage (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/pages/exclusions-page.tsx:111:26)
+    at Route (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=202c1bb0:323:16)
+    at ProtectedRoute (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/lib/protected-route.tsx:23:31)
+    at Switch (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=202c1bb0:379:17)
+    at AuthProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/hooks/use-auth.tsx:26:32)
+    at QueryClientProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=202c1bb0:2805:3)
+    at App
+at div
+at div
+at div
+at main
+at div
+at div
+at Provider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-YRL5WAL7.js?v=202c1bb0:38:15)
+at TooltipProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=202c1bb0:61:5)
+at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/components/ui/sidebar.tsx:54:7
+at div
+at MainLayout (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/components/ui/layout.tsx:36:30)
+at FamilyExclusionsPage (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/pages/exclusions-page.tsx:111:26)
+at Route (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=202c1bb0:323:16)
+at ProtectedRoute (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/lib/protected-route.tsx:23:31)
+at Switch (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=202c1bb0:379:17)
+at AuthProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/hooks/use-auth.tsx:26:32)
+at QueryClientProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=202c1bb0:2805:3)
+at App
+at t.value (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+🔄 [API] Réponse /api/user: 
+Object {status: 200, ok: true}
+🔄 [API] Données reçues /api/user: 
+Object {ID: 399, IDSynchro: "NUXIDEVA612", IDClient: 372, ConfigConnecteur: "<?xml version="1.0" encoding="UTF-8"?>↵<Connexion>↵  <Complement>↵   …", Premium: 1, …}

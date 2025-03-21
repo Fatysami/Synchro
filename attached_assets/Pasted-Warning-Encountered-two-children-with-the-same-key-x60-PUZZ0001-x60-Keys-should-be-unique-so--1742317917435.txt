@@ -1,0 +1,69 @@
+Warning: Encountered two children with the same key, &#x60;PUZZ0001&#x60;. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    at div
+    at div
+    at div
+    at main
+    at div
+    at div
+    at Provider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-YRL5WAL7.js?v=202c1bb0:38:15)
+    at TooltipProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=202c1bb0:61:5)
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/components/ui/sidebar.tsx:54:7
+    at div
+    at MainLayout (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/components/ui/layout.tsx:36:30)
+    at FamilyExclusionsPage (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/pages/exclusions-page.tsx:111:26)
+    at Route (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=202c1bb0:323:16)
+    at ProtectedRoute (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/lib/protected-route.tsx:23:31)
+    at Switch (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=202c1bb0:379:17)
+    at AuthProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/hooks/use-auth.tsx:26:32)
+    at QueryClientProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=202c1bb0:2805:3)
+    at App
+🔄 [API] Réponse /api/user: 
+Object {status: 200, ok: true}
+🔄 [API] Données reçues /api/user: 
+Object {ID: 399, IDSynchro: "NUXIDEVA612", IDClient: 372, ConfigConnecteur: "<?xml version="1.0" encoding="UTF-8"?>↵<Connexion>↵  <Complement>↵   …", Premium: 1, …}
+ProtectedRoute - Auth state: 
+Object {user: {…}, isLoading: false}
+🔄 [API] Exécution requête /api/user
+A  must have a value prop that is not an empty string. This is because the Select value can be set to an empty string to clear the selection and show the placeholder.
+A  must have a value prop that is not an empty string. This is because the Select value can be set to an empty string to clear the selection and show the placeholder.
+The above error occurred in the <SelectItem> component:
+
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=202c1bb0:839:7
+    at _c11 (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/components/ui/select.tsx:207:13)
+    at div
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RLTE5R7I.js?v=202c1bb0:41:13
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-UACHJROW.js?v=202c1bb0:52:11
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-UACHJROW.js?v=202c1bb0:33:11
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-MRB2OOEX.js?v=202c1bb0:98:15
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=202c1bb0:750:13
+    at div
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-UACHJROW.js?v=202c1bb0:52:11
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-UACHJROW.js?v=202c1bb0:33:11
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-MRB2OOEX.js?v=202c1bb0:98:15
+    at Provider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-YRL5WAL7.js?v=202c1bb0:38:15)
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=202c1bb0:294:58
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-UACHJROW.js?v=202c1bb0:52:11
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-UACHJROW.js?v=202c1bb0:33:11
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RLTE5R7I.js?v=202c1bb0:41:13
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-54SOGMOD.js?v=202c1bb0:258:22
+    at SelectPortal
+    at _c7 (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/components/ui/select.tsx:122:12)
+    at Provider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-YRL5WAL7.js?v=202c1bb0:38:15)
+    at Provider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-MRB2OOEX.js?v=202c1bb0:28:15)
+    at CollectionProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-MRB2OOEX.js?v=202c1bb0:89:13)
+    at Provider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-YRL5WAL7.js?v=202c1bb0:38:15)
+    at Provider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-VOHMXLDU.js?v=202c1bb0:1915:15)
+    at Popper (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-VOHMXLDU.js?v=202c1bb0:1972:11)
+    at Select (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-select.js?v=202c1bb0:82:5)
+    at div
+    at div
+    at main
+    at div
+    at div
+    at Provider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-YRL5WAL7.js?v=202c1bb0:38:15)
+    at TooltipProvider (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=202c1bb0:61:5)
+    at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/components/ui/sidebar.tsx:54:7
+    at div
+    at MainLayout (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/components/ui/layout.tsx:36:30)
+    at ComplementPage…
+A  must have a value prop that is not an empty string. This is because the Select value can be set to an empty string to clear the selection and show the placeholder.
