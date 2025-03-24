@@ -1,0 +1,107 @@
+rest-express@1.0.0 dev
+1:37:54 PM [express] serving on port 5000
+GET /api/user - isAuthenticated: false
+GET /api/user - session: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-03-11T13:37:58.351Z,
+    originalMaxAge: 86400000,
+    httpOnly: true,
+    secure: false
+  }
+}
+GET /api/user - user: undefined
+1:37:58 PM [express] GET /api/user 401 in 7ms
+GET /api/user - isAuthenticated: false
+GET /api/user - session: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-03-11T13:38:01.150Z,
+    originalMaxAge: 86400000,
+    httpOnly: true,
+    secure: false
+  }
+}
+GET /api/user - user: undefined
+1:38:01 PM [express] GET /api/user 401 in 1ms
+GET /api/user - isAuthenticated: false
+GET /api/user - session: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-03-11T13:38:23.774Z,
+    originalMaxAge: 86400000,
+    httpOnly: true,
+    secure: false
+  }
+}
+GET /api/user - user: undefined
+1:38:23 PM [express] GET /api/user 401 in 3ms
+Requête login reçue: { username: 'NUXIDEVA612', password: '372' }
+Passport Strategy - Tentative authentification: { username: 'NUXIDEVA612', password: '372' }
+Tentative de connexion avec: { IDSynchro: 'NUXIDEVA612', IDClient: '372' }
+Database error: Error: connect ECONNREFUSED 127.0.0.1:35217
+    at PromisePool.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at validateUser (/home/runner/workspace/server/db.ts:34:35)
+    at Strategy._verify (/home/runner/workspace/server/auth.ts:51:28)
+    at Strategy.authenticate (/home/runner/workspace/node_modules/passport-local/lib/strategy.js:90:12)
+    at attempt (/home/runner/workspace/node_modules/passport/lib/middleware/authenticate.js:378:16)
+    at authenticate (/home/runner/workspace/node_modules/passport/lib/middleware/authenticate.js:379:7)
+    at <anonymous> (/home/runner/workspace/server/auth.ts:129:6)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/workspace/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/runner/workspace/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at strategy.pass (/home/runner/workspace/node_modules/passport/lib/middleware/authenticate.js:355:9)
+    at SessionStrategy.authenticate (/home/runner/workspace/node_modules/passport/lib/strategies/session.js:126:10)
+    at attempt (/home/runner/workspace/node_modules/passport/lib/middleware/authenticate.js:378:16)
+    at authenticate (/home/runner/workspace/node_modules/passport/lib/middleware/authenticate.js:379:7)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at initialize (/home/runner/workspace/node_modules/passport/lib/middleware/initialize.js:98:5)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at /home/runner/workspace/node_modules/express-session/index.js:514:7
+    at MemoryStore.get (/home/runner/workspace/node_modules/memorystore/lib/memorystore.js:104:23)
+    at session (/home/runner/workspace/node_modules/express-session/index.js:493:11)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at <anonymous> (/home/runner/workspace/server/index.ts:48:3)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/home/runner/workspace/node_modules/body-parser/lib/types/urlencoded.js:85:7)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at /home/runner/workspace/node_modules/body-parser/lib/read.js:137:5 {
+  code: 'ECONNREFUSED',
+  errno: -111,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined
+}
+Erreur authentification: Error: Database authentication error
+    at validateUser (/home/runner/workspace/server/db.ts:63:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Strategy._verify (/home/runner/workspace/server/auth.ts:51:22)
+Erreur authentification: Error: Database authentication error
+    at validateUser (/home/runner/workspace/server/db.ts:63:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Strategy._verify (/home/runner/workspace/server/auth.ts:51:22)
+1:40:38 PM [express] POST /api/login 500 in 15ms :: {"message":"Erreur d'authentification"}

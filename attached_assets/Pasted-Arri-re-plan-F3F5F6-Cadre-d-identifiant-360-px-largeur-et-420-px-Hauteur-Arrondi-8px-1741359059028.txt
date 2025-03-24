@@ -1,0 +1,113 @@
+Arrière plan = #F3F5F6
+
+
+Cadre d’identifiant : 
+360 px largeur et 420 px Hauteur , Arrondi = 8px
+la couleur : #FFFFFF
+l’ombre :
+x = 0 px
+y = 1 px
+Blur = 3 px
+Couleur = #000000 ( opacité = 20%)
+
+
+logo : 
+taille : 56*56 px
+le nom de logo : Connecteur.jpeg
+
+ 
+titre : “Connecteur de Synchro NuxiDev”
+couleur = #36599E
+type de police = Source Sans Pro
+famille = Bold
+taille = 24px
+
+
+sous titre : “Veuillez entrer vos identifiants de connexion”
+couleur = #212529
+type de police = Source Sans Pro
+famille = regular
+taille = 16px
+
+
+Zone 1 : “ID de synchronisation”
+Cadre de la zone de saisie :
+Couleur de zone = #FFFFFF 
+Couleur de bordure = #CED4DA et taille = 1px
+taille de la zone : 280 px largeur et 34 px Hauteur
+Arrondi : 
+Coin haut gauche = 4px
+Coin bas gauche = 4px
+Coin haut Droit = 0px
+Coin bas Droit = 0px
+Libellé : “ID de synchronisation”
+couleur = #212529
+type de police = Source Sans Pro
+famille = Bold
+taille = 16px
+Texte d’indication interne à la zone  : “Entrez votre ID synchro”
+couleur = #888F97
+type de police = Source Sans Pro
+famille = regular
+taille = 16px
+
+
+
+Cadre d’icone : 
+taille d’icone = 15*16px
+le nom d’icone : Utilisateur.jpeg
+Couleur de cadre = #E9ECEF
+Couleur de bordure = #CED4DA et taille = 1px
+taille de cadre : 40 px largeur et 34 px Hauteur
+Arrondi : 
+Coin haut gauche = 0px
+Coin bas gauche = 0px
+Coin haut Droit = 4px
+Coin bas Droit = 4px
+
+
+Zone 2 : “Mot de passe”
+Cadre de la zone de saisie :
+Couleur de zone = #FFFFFF 
+Couleur de bordure = #CED4DA et taille = 1px
+taille de la zone : 280 px largeur et 34 px Hauteur
+Arrondi : 
+Coin en haut à gauche = 4px
+Coin en bas à gauche = 4px
+Coin en haut à droite = 0px
+Coin en bas à droite = 0px
+Libellé : “Mot de passe”
+couleur = #212529
+type de police = Source Sans Pro
+famille = Bold
+taille = 16px
+Texte d’indication interne à la zone  : “Entrez votre mot de passe”
+couleur = #888F97
+type de police = Source Sans Pro
+famille = regular
+taille = 16px
+Cadre d’icone : 
+taille d’icone = 15*16px
+le nom d’icone : mot de passe.jpeg
+Couleur de cadre = #E9ECEF
+Couleur de bordure = #CED4DA et taille = 1px
+taille de cadre : 40 px largeur et 34 px Hauteur
+Arrondi : 
+Coin en haut à gauche = 0px
+Coin en bas à gauche = 0px
+Coin en haut à droite = 4px
+Coin en bas à droite= 4px
+
+
+Bouton : 
+Cadre : 
+Couleur de zone = #36599E
+taille de la zone : 380 px largeur et 38 px Hauteur
+Arrondi : 4px
+Libelle : “ Se connecter”
+couleur = #FFFFFF
+type de police = Source Sans Pro
+famille = regular
+taille = 16px
+
+

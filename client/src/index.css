@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .btn-nav {
+    @apply w-[132px] h-[32px] rounded-[4px] bg-white text-[#36599E] border border-[#36599E] text-[14px] font-sans-pro hover:bg-[#E3E6EA] !important;
+  }
+
+  .btn-sync {
+    @apply w-[132px] h-[32px] rounded-[4px] bg-[#36599E] text-white border-none text-[14px] font-sans-pro 
+    hover:bg-[#0A2A69] 
+    active:bg-[#85A3DE] !important;
+  }
+
+  .btn-validate {
+    @apply w-[116px] h-[38px] rounded-[4px] bg-[#36599E] text-white border-none text-[14px] font-sans-pro 
+    hover:bg-[#0A2A69] 
+    active:bg-[#85A3DE] !important;
+  }
+}

@@ -1,0 +1,1362 @@
+> rest-express@1.0.0 dev
+> tsx server/index.ts
+=== VÉRIFICATION DES VARIABLES D'ENVIRONNEMENT ===
+Chemin du fichier .env: /home/runner/workspace/.env
+
+======= VÉRIFICATION DES VARIABLES D'ENVIRONNEMENT =======
+AUTH_MYSQL_HOST: sqlprive-dd25990-001.eu.clouddb.ovh.net
+SYNC_MYSQL_HOST: sqlprive-dd25990-001.eu.clouddb.ovh.net
+HISTOSYNC_MYSQL_HOST: dd25990-001.eu.clouddb.ovh.net
+SESSION_SECRET: DÉFINI
+======================================================
+
+
+=== DÉMARRAGE DE L'APPLICATION ===
+Variables d'environnement chargées avec succès
+
+=== INITIALISATION DES BASES DE DONNÉES ===
+
+=== CRÉATION DU POOL AUTH ===
+AUTH_MYSQL_HOST: sqlprive-dd25990-001.eu.clouddb.ovh.net
+AUTH_MYSQL_PORT: 35217
+AUTH_MYSQL_DATABASE: NuxiDev2018
+✅ Pool AUTH créé avec succès
+
+=== CRÉATION DU POOL SYNC ===
+SYNC_MYSQL_HOST: sqlprive-dd25990-001.eu.clouddb.ovh.net
+SYNC_MYSQL_PORT: 35217
+SYNC_MYSQL_DATABASE: Connecteur
+✅ Pool SYNC créé avec succès
+
+=== CRÉATION DU POOL HISTOSYNC ===
+HISTOSYNC_MYSQL_HOST: dd25990-001.eu.clouddb.ovh.net
+HISTOSYNC_MYSQL_PORT: 35414
+HISTOSYNC_MYSQL_DATABASE: NuxiDev2024SAV
+✅ Pool HISTOSYNC créé avec succès
+
+=== TEST DE CONNEXION AUTH ===
+✅ Connexion AUTH établie avec succès
+
+=== TEST DE CONNEXION SYNC ===
+✅ Connexion SYNC établie avec succès
+
+=== TEST DE CONNEXION HISTOSYNC ===
+✅ Connexion HISTOSYNC établie avec succès
+✅ Toutes les connexions aux bases de données sont établies
+Connexions aux bases de données initialisées
+2:04:32 PM [express] serving on port 5000
+GET /api/user - isAuthenticated: false
+GET /api/user - session: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-03-11T14:04:42.143Z,
+    originalMaxAge: 86400000,
+    httpOnly: true,
+    secure: false
+  }
+}
+GET /api/user - user: undefined
+2:04:42 PM [express] GET /api/user 401 in 5ms
+GET /api/user - isAuthenticated: false
+GET /api/user - session: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-03-11T14:04:44.330Z,
+    originalMaxAge: 86400000,
+    httpOnly: true,
+    secure: false
+  }
+}
+GET /api/user - user: undefined
+2:04:44 PM [express] GET /api/user 401 in 1ms
+GET /api/user - isAuthenticated: false
+GET /api/user - session: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-03-11T14:04:44.967Z,
+    originalMaxAge: 86400000,
+    httpOnly: true,
+    secure: false
+  }
+}
+GET /api/user - user: undefined
+2:04:44 PM [express] GET /api/user 401 in 2ms
+Requête login reçue: { username: 'NUXIDEVA612', password: '372' }
+Passport Strategy - Tentative authentification: { username: 'NUXIDEVA612', password: '372' }
+Tentative de connexion avec: { IDSynchro: 'NUXIDEVA612', IDClient: '372' }
+Résultat de la requête: [
+  {
+    ID: 399,
+    IDSynchro: 'NUXIDEVA612',
+    IDClient: 372,
+    ConfigConnecteur: '<?xml version="1.0" encoding="UTF-8"?>\r\n' +
+      '<Connexion>\r\n' +
+      '  <Complement>\r\n' +
+      '    <EspaceClient>\r\n' +
+      '      <Utilisateur>NUXIDEVA612</Utilisateur>\r\n' +
+      '      <MDP>0</MDP>\r\n' +
+      '    </EspaceClient>\r\n' +
+      '    <APIKey_Google>api.gouv.fr</APIKey_Google>\r\n' +
+      '    <Mail_Rapport>\r\n' +
+      '      <Envoyer_Rapport>0</Envoyer_Rapport>\r\n' +
+      '      <MailDestinataire>dominque.m@nuxilog.fr</MailDestinataire>\r\n' +
+      '      <NotifErr>1</NotifErr>\r\n' +
+      '      <NotifInf>0</NotifInf>\r\n' +
+      '      <NotifImp>0</NotifImp>\r\n' +
+      '      <Globaliser_Enreg_Import>0</Globaliser_Enreg_Import>\r\n' +
+      '    </Mail_Rapport>\r\n' +
+      '    <ScriptComplementaire>[CONFIG]&#13;\r\n' +
+      'LIMITER_ARTICLE=NON&#13;\r\n' +
+      'PHOTO=C:\\Users\\Public\\Documents\\NuxiDev Import\\4\\Images\\&#13;\r\n' +
+      'PHOTO_FORMAT=LIEN&#13;\r\n' +
+      'BON_DE_TRANSFERT=TransferRequests&#13;\r\n' +
+      'gCodeDynamiqueStdXML=L&#13;\r\n' +
+      '</ScriptComplementaire>\r\n' +
+      '    <Drive>\r\n' +
+      '      <Type_Drive/>\r\n' +
+      '    </Drive>\r\n' +
+      '  </Complement>\r\n' +
+      '  <Sources>\r\n' +
+      '    <Source>\r\n' +
+      '      <Provider>SQLOLEDB</Provider>\r\n' +
+      '      <Serveur>localhost\\ebp</Serveur>\r\n' +
+      '      <Nom_BDD>DemoHouda_0895452f-b7c1-4c00-a316-c6a6d0ea4bf4</Nom_BDD>\r\n' +
+      '      <Utilisateur>sa</Utilisateur>\r\n' +
+      '      <MDP>@ebp78EBP</MDP>\r\n' +
+      '      <Lecture_Seule>0</Lecture_Seule>\r\n' +
+      '      <IP_Public/>\r\n' +
+      '      <Port_Public/>\r\n' +
+      '      <Tokens>\r\n' +
+      '        <Token>\r\n' +
+      '          <IDPoste>*</IDPoste>\r\n' +
+      '          <Valeur/>\r\n' +
+      '          <Proprietes>\r\n' +
+      '            <Valeur/>\r\n' +
+      '            <Actualisation/>\r\n' +
+      '            <DateExpiration/>\r\n' +
+      '            <DateExpirationUTC/>\r\n' +
+      '          </Proprietes>\r\n' +
+      '        </Token>\r\n' +
+      '      </Tokens>\r\n' +
+      '      <Status>1</Status>\r\n' +
+      '      <StatusLibelle> Ok : SQL</StatusLibelle>\r\n' +
+      '    </Source>\r\n' +
+      '    <Source>\r\n' +
+      '      <Provider/>\r\n' +
+      '      <Serveur/>\r\n' +
+      '      <Nom_BDD/>\r\n' +
+      '      <Utilisateur/>\r\n' +
+      '      <MDP/>\r\n' +
+      '      <Lecture_Seule>0</Lecture_Seule>\r\n' +
+      '      <IP_Public/>\r\n' +
+      '      <Port_Public/>\r\n' +
+      '      <Tokens>\r\n' +
+      '        <Token>\r\n' +
+      '          <IDPoste>*</IDPoste>\r\n' +
+      '          <Valeur/>\r\n' +
+      '          <Proprietes>\r\n' +
+      '            <Valeur/>\r\n' +
+      '            <Actualisation/>\r\n' +
+      '            <DateExpiration/>\r\n' +
+      '            <DateExpirationUTC/>\r\n' +
+      '          </Proprietes>\r\n' +
+      '        </Token>\r\n' +
+      '      </Tokens>\r\n' +
+      '      <Status/>\r\n' +
+      '      <StatusLibelle/>\r\n' +
+      '    </Source>\r\n' +
+      '    <Source>\r\n' +
+      '      <Provider/>\r\n' +
+      '      <Serveur/>\r\n' +
+      '      <Nom_BDD/>\r\n' +
+      '      <Utilisateur/>\r\n' +
+      '      <MDP/>\r\n' +
+      '      <Lecture_Seule>0</Lecture_Seule>\r\n' +
+      '      <IP_Public/>\r\n' +
+      '      <Port_Public/>\r\n' +
+      '      <Tokens>\r\n' +
+      '        <Token>\r\n' +
+      '          <IDPoste>*</IDPoste>\r\n' +
+      '          <Valeur/>\r\n' +
+      '          <Proprietes>\r\n' +
+      '            <Valeur/>\r\n' +
+      '            <Actualisation/>\r\n' +
+      '            <DateExpiration/>\r\n' +
+      '            <DateExpirationUTC/>\r\n' +
+      '          </Proprietes>\r\n' +
+      '        </Token>\r\n' +
+      '      </Tokens>\r\n' +
+      '      <Status/>\r\n' +
+      '      <StatusLibelle/>\r\n' +
+      '    </Source>\r\n' +
+      '    <Source>\r\n' +
+      '      <Provider/>\r\n' +
+      '      <Serveur/>\r\n' +
+      '      <Nom_BDD/>\r\n' +
+      '      <Utilisateur/>\r\n' +
+      '      <MDP/>\r\n' +
+      '      <Lecture_Seule>0</Lecture_Seule>\r\n' +
+      '      <IP_Public/>\r\n' +
+      '      <Port_Public/>\r\n' +
+      '      <Tokens>\r\n' +
+      '        <Token>\r\n' +
+      '          <IDPoste>*</IDPoste>\r\n' +
+      '          <Valeur/>\r\n' +
+      '          <Proprietes>\r\n' +
+      '            <Valeur/>\r\n' +
+      '            <Actualisation/>\r\n' +
+      '            <DateExpiration/>\r\n' +
+      '            <DateExpirationUTC/>\r\n' +
+      '          </Proprietes>\r\n' +
+      '        </Token>\r\n' +
+      '      </Tokens>\r\n' +
+      '      <Status/>\r\n' +
+      '      <StatusLibelle/>\r\n' +
+      '    </Source>\r\n' +
+      '  </Sources>\r\n' +
+      '  <Liaisons_Externes>\r\n' +
+      '    <Dossier_Import>C:\\Users\\Public\\Documents\\Synchro NuxiDev\\NUXIDEVA612\\Import</Dossier_Import>\r\n' +
+      '    <Dossier_Export>C:\\Users\\Public\\Documents\\Synchro NuxiDev\\NUXIDEVA612\\Export</Dossier_Export>\r\n' +
+      '    <Liaisons>\r\n' +
+      '      <Liaison>\r\n' +
+      '        <Logiciel>C:\\Program Files\\EBP\\Invoicing24.0FRFR40\\EBP.Invoicing.Application.exe</Logiciel>\r\n' +
+      '        <Config>C:\\Users\\Dominique\\Documents\\DemoHouda.ebp</Config>\r\n' +
+      '        <Utilisateur>EBPSDKx</Utilisateur>\r\n' +
+      '        <MDP>EBPSDK</MDP>\r\n' +
+      '      </Liaison>\r\n' +
+      '      <Liaison>\r\n' +
+      '        <Logiciel/>\r\n' +
+      '        <Config/>\r\n' +
+      '        <Utilisateur/>\r\n' +
+      '        <MDP/>\r\n' +
+      '      </Liaison>\r\n' +
+      '      <Liaison>\r\n' +
+      '        <Logiciel/>\r\n' +
+      '        <Config/>\r\n' +
+      '        <Utilisateur/>\r\n' +
+      '        <MDP/>\r\n' +
+      '      </Liaison>\r\n' +
+      '      <Liaison>\r\n' +
+      '        <Logiciel/>\r\n' +
+      '        <Config/>\r\n' +
+      '        <Utilisateur/>\r\n' +
+      '        <MDP/>\r\n' +
+      '      </Liaison>\r\n' +
+      '    </Liaisons>\r\n' +
+      '    <Agenda>\r\n' +
+      '      <Type_Agenda>Google</Type_Agenda>\r\n' +
+      '      <Correspondances>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>CO00002</ID_Salarie>\r\n' +
+      '          <ID_Agenda>60mb9cl76i117qm2hkd6emaqio@group.calendar.google.com</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '        <Correspondance>\r\n' +
+      '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+      '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+      '        </Correspondance>\r\n' +
+      '      </Correspondances>\r\n' +
+      '      <Token>\r\n' +
+      '        <Valeur>PD94bWwgdmVyc2lvbj0iMS4wIj8+PERPQ1VNRU5UIHhtbG5zOlNPQVBfRU5DPSJodHRwOi8vc2NoZW1h\r\n' +
+      'cy54bWxzb2FwLm9yZy9zb2FwL2VuY29kaW5nLyIgeG1sbnM6eHNpID0gImh0dHA6Ly93d3cudzMub3Jn\r\n' +
+      'LzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIj48QXV0aFRva2VuIGlkPSJpZDAiPjxfX1NlcmlhbGlzYXRp\r\n' +
+      'b25fXz5BUUFBQUFFQUFBQVZBd0FBMndFQUFIc0tJQ0FpWVdOalpYTnpYM1J2YTJWdUlqb2dJbmxoTWpr\r\n' +
+      'dVlUQkJXR1ZQT0RCVGRHSTJhR3RsVlZwak5rODBiMkZYT1cxQmQzZFNWazQwV0RoWWRVTkthMDVUWmpZ\r\n' +
+      'eU5uZEliRWhxWTJ4aGRqUjNZVTVsTVU1TVJEQklORGxtUTJSRlpVTXdiR1o0UWpCNE4yNXJMVzAwYUZG\r\n' +
+      'RFgzSkxXV1ZyUWxsWFNGQlhPWEE1Ymt4elNtMUZhbmxYYVcxM1JEVXhaMk14YzNaRVNUVjJiVUp2V1ZG\r\n' +
+      'M1MydHdXV2xNUm5kWE9UQlJlbkZIUkZsdlZrTk9iWFpZY21GcGMwNXRhRk5CZUhkaFEyZFpTMEZUV1ZO\r\n' +
+      'QlVrbFRSbEZJUjFneVRXbGhkRmQ1WVdkTGRFcE1SMUU0Y2pkQ2FuSnZRbE4zTURFM05TSXNDaUFnSW1W\r\n' +
+      'NGNHbHlaWE5mYVc0aU9pQXpOVGs1TEFvZ0lDSnlaV1p5WlhOb1gzUnZhMlZ1SWpvZ0lqRXZMekF6VWxK\r\n' +
+      'Qk5rdzRiV1JWWkMxRFoxbEpRVkpCUVVkQlRWTk9kMFl0VERsSmNuZFdaR1JOTjNoYWJEaHFiRFJpZHpJ\r\n' +
+      'eWNXSlhVMnRyVEVvME5VVnNZbVp6VUhZM0xVSkVSR2xqZUcxRGRGUklUSFJXUjNkeE4xTlZjblJvZFUw\r\n' +
+      'MGNtUlpNSE1pTEFvZ0lDSnpZMjl3WlNJNklDSm9kSFJ3Y3pvdkwzZDNkeTVuYjI5bmJHVmhjR2x6TG1O\r\n' +
+      'dmJTOWhkWFJvTDJOaGJHVnVaR0Z5SWl3S0lDQWlkRzlyWlc1ZmRIbHdaU0k2SUNKQ1pXRnlaWElpQ24w\r\n' +
+      'RkFBQUFMZ0VBQVAvT2lQRlZBQUFBTmpjNE9EazNNemd6TURVM0xYSm1iM1J0YWpkc2NUUXlhR016TW1R\r\n' +
+      'MWJXd3pNalIyYjJGclpETm1ZelZvTG1Gd2NITXVaMjl2WjJ4bGRYTmxjbU52Ym5SbGJuUXVZMjl0QVA3\r\n' +
+      'dG1PSC96b2p4SlFBQUFHMXFXRWh2TkhSblprMTBYMUZQYzJwMGVIaG9RbVZhZFFEKzdaamgvODZJOFRZ\r\n' +
+      'QUFBQm9kSFJ3Y3pvdkwyRmpZMjkxYm5SekxtZHZiMmRzWlM1amIyMHZieTl2WVhWMGFESXZZWFYwYUFE\r\n' +
+      'KzdaamgvODZJOFRjQUFBQm9kSFJ3Y3pvdkwyRmpZMjkxYm5SekxtZHZiMmRzWlM1amIyMHZieTl2WVhW\r\n' +
+      'MGFESXZkRzlyWlc0QS91Mlk0Zi9PaVBFMUFBQUFhSFIwY0hNNkx5OTNkM2N1WjI5dloyeGxZWEJwY3k1\r\n' +
+      'amIyMHZZWFYwYUM5allXeGxibVJoY2dEKzdaamhBQUFBQUFBQUFBQUFBQUFBQUFBPTwvX19TZXJpYWxp\r\n' +
+      'c2F0aW9uX18+PEFjdHVhbGlzYXRpb24+MS8vMDNSUkE2TDhtZFVkLUNnWUlBUkFBR0FNU053Ri1MOUly\r\n' +
+      'd1ZkZE03eFpsOGpsNGJ3MjJxYldTa2tMSjQ1RWxiZnNQdjctQkREaWN4bUN0VEhMdFZHd3E3U1VydGh1\r\n' +
+      'TTRyZFkwczwvQWN0dWFsaXNhdGlvbj48RGF0ZUV4cGlyYXRpb24+MjAyNS0wMi0xMlQxNzo1MTo0OC43\r\n' +
+      'OTI8L0RhdGVFeHBpcmF0aW9uPjwvQXV0aFRva2VuPjwvRE9DVU1FTlQ+</Valeur>\r\n' +
+      '      </Token>\r\n' +
+      '    </Agenda>\r\n' +
+      '  </Liaisons_Externes>\r\n' +
+      '  <Planifications>\r\n' +
+      '    <FuseauHoraire>Europe/Paris</FuseauHoraire>\r\n' +
+      '    <FuseauHoraireValeur>+01:00</FuseauHoraireValeur>\r\n' +
+      '  </Planifications>\r\n' +
+      '  <Info>\r\n' +
+      '    <Exe>C:\\Mes Projets\\Synchro NuxiDev\\Exe\\ExÃ©cutable Windows 64 bits\\Synchro NuxiDev.exe</Exe>\r\n' +
+      '    <Serial>4A2D-4597-BG33-8C7G-E5AG</Serial>\r\n' +
+      '    <NuxiAutomateInstall>1</NuxiAutomateInstall>\r\n' +
+      '    <NuxiAutomateLibelle>Version : 6.11.23.9</NuxiAutomateLibelle>\r\n' +
+      '    <DateMAJConfig>20250305093300664</DateMAJConfig>\r'... 115140 more characters,
+    Premium: 1,
+    Options: '25;NUXIDEVA612;A',
+    Tablettes: '1;EBP GesCom Open Line;EBPGesComOL|2;EBP Gestion Open Line;GesCom'
+  }
+]
+Résultat authentification: {
+  ID: 399,
+  IDSynchro: 'NUXIDEVA612',
+  IDClient: 372,
+  ConfigConnecteur: '<?xml version="1.0" encoding="UTF-8"?>\r\n' +
+    '<Connexion>\r\n' +
+    '  <Complement>\r\n' +
+    '    <EspaceClient>\r\n' +
+    '      <Utilisateur>NUXIDEVA612</Utilisateur>\r\n' +
+    '      <MDP>0</MDP>\r\n' +
+    '    </EspaceClient>\r\n' +
+    '    <APIKey_Google>api.gouv.fr</APIKey_Google>\r\n' +
+    '    <Mail_Rapport>\r\n' +
+    '      <Envoyer_Rapport>0</Envoyer_Rapport>\r\n' +
+    '      <MailDestinataire>dominque.m@nuxilog.fr</MailDestinataire>\r\n' +
+    '      <NotifErr>1</NotifErr>\r\n' +
+    '      <NotifInf>0</NotifInf>\r\n' +
+    '      <NotifImp>0</NotifImp>\r\n' +
+    '      <Globaliser_Enreg_Import>0</Globaliser_Enreg_Import>\r\n' +
+    '    </Mail_Rapport>\r\n' +
+    '    <ScriptComplementaire>[CONFIG]&#13;\r\n' +
+    'LIMITER_ARTICLE=NON&#13;\r\n' +
+    'PHOTO=C:\\Users\\Public\\Documents\\NuxiDev Import\\4\\Images\\&#13;\r\n' +
+    'PHOTO_FORMAT=LIEN&#13;\r\n' +
+    'BON_DE_TRANSFERT=TransferRequests&#13;\r\n' +
+    'gCodeDynamiqueStdXML=L&#13;\r\n' +
+    '</ScriptComplementaire>\r\n' +
+    '    <Drive>\r\n' +
+    '      <Type_Drive/>\r\n' +
+    '    </Drive>\r\n' +
+    '  </Complement>\r\n' +
+    '  <Sources>\r\n' +
+    '    <Source>\r\n' +
+    '      <Provider>SQLOLEDB</Provider>\r\n' +
+    '      <Serveur>localhost\\ebp</Serveur>\r\n' +
+    '      <Nom_BDD>DemoHouda_0895452f-b7c1-4c00-a316-c6a6d0ea4bf4</Nom_BDD>\r\n' +
+    '      <Utilisateur>sa</Utilisateur>\r\n' +
+    '      <MDP>@ebp78EBP</MDP>\r\n' +
+    '      <Lecture_Seule>0</Lecture_Seule>\r\n' +
+    '      <IP_Public/>\r\n' +
+    '      <Port_Public/>\r\n' +
+    '      <Tokens>\r\n' +
+    '        <Token>\r\n' +
+    '          <IDPoste>*</IDPoste>\r\n' +
+    '          <Valeur/>\r\n' +
+    '          <Proprietes>\r\n' +
+    '            <Valeur/>\r\n' +
+    '            <Actualisation/>\r\n' +
+    '            <DateExpiration/>\r\n' +
+    '            <DateExpirationUTC/>\r\n' +
+    '          </Proprietes>\r\n' +
+    '        </Token>\r\n' +
+    '      </Tokens>\r\n' +
+    '      <Status>1</Status>\r\n' +
+    '      <StatusLibelle> Ok : SQL</StatusLibelle>\r\n' +
+    '    </Source>\r\n' +
+    '    <Source>\r\n' +
+    '      <Provider/>\r\n' +
+    '      <Serveur/>\r\n' +
+    '      <Nom_BDD/>\r\n' +
+    '      <Utilisateur/>\r\n' +
+    '      <MDP/>\r\n' +
+    '      <Lecture_Seule>0</Lecture_Seule>\r\n' +
+    '      <IP_Public/>\r\n' +
+    '      <Port_Public/>\r\n' +
+    '      <Tokens>\r\n' +
+    '        <Token>\r\n' +
+    '          <IDPoste>*</IDPoste>\r\n' +
+    '          <Valeur/>\r\n' +
+    '          <Proprietes>\r\n' +
+    '            <Valeur/>\r\n' +
+    '            <Actualisation/>\r\n' +
+    '            <DateExpiration/>\r\n' +
+    '            <DateExpirationUTC/>\r\n' +
+    '          </Proprietes>\r\n' +
+    '        </Token>\r\n' +
+    '      </Tokens>\r\n' +
+    '      <Status/>\r\n' +
+    '      <StatusLibelle/>\r\n' +
+    '    </Source>\r\n' +
+    '    <Source>\r\n' +
+    '      <Provider/>\r\n' +
+    '      <Serveur/>\r\n' +
+    '      <Nom_BDD/>\r\n' +
+    '      <Utilisateur/>\r\n' +
+    '      <MDP/>\r\n' +
+    '      <Lecture_Seule>0</Lecture_Seule>\r\n' +
+    '      <IP_Public/>\r\n' +
+    '      <Port_Public/>\r\n' +
+    '      <Tokens>\r\n' +
+    '        <Token>\r\n' +
+    '          <IDPoste>*</IDPoste>\r\n' +
+    '          <Valeur/>\r\n' +
+    '          <Proprietes>\r\n' +
+    '            <Valeur/>\r\n' +
+    '            <Actualisation/>\r\n' +
+    '            <DateExpiration/>\r\n' +
+    '            <DateExpirationUTC/>\r\n' +
+    '          </Proprietes>\r\n' +
+    '        </Token>\r\n' +
+    '      </Tokens>\r\n' +
+    '      <Status/>\r\n' +
+    '      <StatusLibelle/>\r\n' +
+    '    </Source>\r\n' +
+    '    <Source>\r\n' +
+    '      <Provider/>\r\n' +
+    '      <Serveur/>\r\n' +
+    '      <Nom_BDD/>\r\n' +
+    '      <Utilisateur/>\r\n' +
+    '      <MDP/>\r\n' +
+    '      <Lecture_Seule>0</Lecture_Seule>\r\n' +
+    '      <IP_Public/>\r\n' +
+    '      <Port_Public/>\r\n' +
+    '      <Tokens>\r\n' +
+    '        <Token>\r\n' +
+    '          <IDPoste>*</IDPoste>\r\n' +
+    '          <Valeur/>\r\n' +
+    '          <Proprietes>\r\n' +
+    '            <Valeur/>\r\n' +
+    '            <Actualisation/>\r\n' +
+    '            <DateExpiration/>\r\n' +
+    '            <DateExpirationUTC/>\r\n' +
+    '          </Proprietes>\r\n' +
+    '        </Token>\r\n' +
+    '      </Tokens>\r\n' +
+    '      <Status/>\r\n' +
+    '      <StatusLibelle/>\r\n' +
+    '    </Source>\r\n' +
+    '  </Sources>\r\n' +
+    '  <Liaisons_Externes>\r\n' +
+    '    <Dossier_Import>C:\\Users\\Public\\Documents\\Synchro NuxiDev\\NUXIDEVA612\\Import</Dossier_Import>\r\n' +
+    '    <Dossier_Export>C:\\Users\\Public\\Documents\\Synchro NuxiDev\\NUXIDEVA612\\Export</Dossier_Export>\r\n' +
+    '    <Liaisons>\r\n' +
+    '      <Liaison>\r\n' +
+    '        <Logiciel>C:\\Program Files\\EBP\\Invoicing24.0FRFR40\\EBP.Invoicing.Application.exe</Logiciel>\r\n' +
+    '        <Config>C:\\Users\\Dominique\\Documents\\DemoHouda.ebp</Config>\r\n' +
+    '        <Utilisateur>EBPSDKx</Utilisateur>\r\n' +
+    '        <MDP>EBPSDK</MDP>\r\n' +
+    '      </Liaison>\r\n' +
+    '      <Liaison>\r\n' +
+    '        <Logiciel/>\r\n' +
+    '        <Config/>\r\n' +
+    '        <Utilisateur/>\r\n' +
+    '        <MDP/>\r\n' +
+    '      </Liaison>\r\n' +
+    '      <Liaison>\r\n' +
+    '        <Logiciel/>\r\n' +
+    '        <Config/>\r\n' +
+    '        <Utilisateur/>\r\n' +
+    '        <MDP/>\r\n' +
+    '      </Liaison>\r\n' +
+    '      <Liaison>\r\n' +
+    '        <Logiciel/>\r\n' +
+    '        <Config/>\r\n' +
+    '        <Utilisateur/>\r\n' +
+    '        <MDP/>\r\n' +
+    '      </Liaison>\r\n' +
+    '    </Liaisons>\r\n' +
+    '    <Agenda>\r\n' +
+    '      <Type_Agenda>Google</Type_Agenda>\r\n' +
+    '      <Correspondances>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>CO00002</ID_Salarie>\r\n' +
+    '          <ID_Agenda>60mb9cl76i117qm2hkd6emaqio@group.calendar.google.com</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '      </Correspondances>\r\n' +
+    '      <Token>\r\n' +
+    '        <Valeur>PD94bWwgdmVyc2lvbj0iMS4wIj8+PERPQ1VNRU5UIHhtbG5zOlNPQVBfRU5DPSJodHRwOi8vc2NoZW1h\r\n' +
+    'cy54bWxzb2FwLm9yZy9zb2FwL2VuY29kaW5nLyIgeG1sbnM6eHNpID0gImh0dHA6Ly93d3cudzMub3Jn\r\n' +
+    'LzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIj48QXV0aFRva2VuIGlkPSJpZDAiPjxfX1NlcmlhbGlzYXRp\r\n' +
+    'b25fXz5BUUFBQUFFQUFBQVZBd0FBMndFQUFIc0tJQ0FpWVdOalpYTnpYM1J2YTJWdUlqb2dJbmxoTWpr\r\n' +
+    'dVlUQkJXR1ZQT0RCVGRHSTJhR3RsVlZwak5rODBiMkZYT1cxQmQzZFNWazQwV0RoWWRVTkthMDVUWmpZ\r\n' +
+    'eU5uZEliRWhxWTJ4aGRqUjNZVTVsTVU1TVJEQklORGxtUTJSRlpVTXdiR1o0UWpCNE4yNXJMVzAwYUZG\r\n' +
+    'RFgzSkxXV1ZyUWxsWFNGQlhPWEE1Ymt4elNtMUZhbmxYYVcxM1JEVXhaMk14YzNaRVNUVjJiVUp2V1ZG\r\n' +
+    'M1MydHdXV2xNUm5kWE9UQlJlbkZIUkZsdlZrTk9iWFpZY21GcGMwNXRhRk5CZUhkaFEyZFpTMEZUV1ZO\r\n' +
+    'QlVrbFRSbEZJUjFneVRXbGhkRmQ1WVdkTGRFcE1SMUU0Y2pkQ2FuSnZRbE4zTURFM05TSXNDaUFnSW1W\r\n' +
+    'NGNHbHlaWE5mYVc0aU9pQXpOVGs1TEFvZ0lDSnlaV1p5WlhOb1gzUnZhMlZ1SWpvZ0lqRXZMekF6VWxK\r\n' +
+    'Qk5rdzRiV1JWWkMxRFoxbEpRVkpCUVVkQlRWTk9kMFl0VERsSmNuZFdaR1JOTjNoYWJEaHFiRFJpZHpJ\r\n' +
+    'eWNXSlhVMnRyVEVvME5VVnNZbVp6VUhZM0xVSkVSR2xqZUcxRGRGUklUSFJXUjNkeE4xTlZjblJvZFUw\r\n' +
+    'MGNtUlpNSE1pTEFvZ0lDSnpZMjl3WlNJNklDSm9kSFJ3Y3pvdkwzZDNkeTVuYjI5bmJHVmhjR2x6TG1O\r\n' +
+    'dmJTOWhkWFJvTDJOaGJHVnVaR0Z5SWl3S0lDQWlkRzlyWlc1ZmRIbHdaU0k2SUNKQ1pXRnlaWElpQ24w\r\n' +
+    'RkFBQUFMZ0VBQVAvT2lQRlZBQUFBTmpjNE9EazNNemd6TURVM0xYSm1iM1J0YWpkc2NUUXlhR016TW1R\r\n' +
+    'MWJXd3pNalIyYjJGclpETm1ZelZvTG1Gd2NITXVaMjl2WjJ4bGRYTmxjbU52Ym5SbGJuUXVZMjl0QVA3\r\n' +
+    'dG1PSC96b2p4SlFBQUFHMXFXRWh2TkhSblprMTBYMUZQYzJwMGVIaG9RbVZhZFFEKzdaamgvODZJOFRZ\r\n' +
+    'QUFBQm9kSFJ3Y3pvdkwyRmpZMjkxYm5SekxtZHZiMmRzWlM1amIyMHZieTl2WVhWMGFESXZZWFYwYUFE\r\n' +
+    'KzdaamgvODZJOFRjQUFBQm9kSFJ3Y3pvdkwyRmpZMjkxYm5SekxtZHZiMmRzWlM1amIyMHZieTl2WVhW\r\n' +
+    'MGFESXZkRzlyWlc0QS91Mlk0Zi9PaVBFMUFBQUFhSFIwY0hNNkx5OTNkM2N1WjI5dloyeGxZWEJwY3k1\r\n' +
+    'amIyMHZZWFYwYUM5allXeGxibVJoY2dEKzdaamhBQUFBQUFBQUFBQUFBQUFBQUFBPTwvX19TZXJpYWxp\r\n' +
+    'c2F0aW9uX18+PEFjdHVhbGlzYXRpb24+MS8vMDNSUkE2TDhtZFVkLUNnWUlBUkFBR0FNU053Ri1MOUly\r\n' +
+    'd1ZkZE03eFpsOGpsNGJ3MjJxYldTa2tMSjQ1RWxiZnNQdjctQkREaWN4bUN0VEhMdFZHd3E3U1VydGh1\r\n' +
+    'TTRyZFkwczwvQWN0dWFsaXNhdGlvbj48RGF0ZUV4cGlyYXRpb24+MjAyNS0wMi0xMlQxNzo1MTo0OC43\r\n' +
+    'OTI8L0RhdGVFeHBpcmF0aW9uPjwvQXV0aFRva2VuPjwvRE9DVU1FTlQ+</Valeur>\r\n' +
+    '      </Token>\r\n' +
+    '    </Agenda>\r\n' +
+    '  </Liaisons_Externes>\r\n' +
+    '  <Planifications>\r\n' +
+    '    <FuseauHoraire>Europe/Paris</FuseauHoraire>\r\n' +
+    '    <FuseauHoraireValeur>+01:00</FuseauHoraireValeur>\r\n' +
+    '  </Planifications>\r\n' +
+    '  <Info>\r\n' +
+    '    <Exe>C:\\Mes Projets\\Synchro NuxiDev\\Exe\\ExÃ©cutable Windows 64 bits\\Synchro NuxiDev.exe</Exe>\r\n' +
+    '    <Serial>4A2D-4597-BG33-8C7G-E5AG</Serial>\r\n' +
+    '    <NuxiAutomateInstall>1</NuxiAutomateInstall>\r\n' +
+    '    <NuxiAutomateLibelle>Version : 6.11.23.9</NuxiAutomateLibelle>\r\n' +
+    '    <DateMAJConfig>20250305093300664</DateMAJConfig>\r'... 115140 more characters,
+  Premium: 1,
+  Options: '25;NUXIDEVA612;A',
+  Tablettes: '1;EBP GesCom Open Line;EBPGesComOL|2;EBP Gestion Open Line;GesCom'
+}
+Serialisation utilisateur: {
+  ID: 399,
+  IDSynchro: 'NUXIDEVA612',
+  IDClient: 372,
+  ConfigConnecteur: '<?xml version="1.0" encoding="UTF-8"?>\r\n' +
+    '<Connexion>\r\n' +
+    '  <Complement>\r\n' +
+    '    <EspaceClient>\r\n' +
+    '      <Utilisateur>NUXIDEVA612</Utilisateur>\r\n' +
+    '      <MDP>0</MDP>\r\n' +
+    '    </EspaceClient>\r\n' +
+    '    <APIKey_Google>api.gouv.fr</APIKey_Google>\r\n' +
+    '    <Mail_Rapport>\r\n' +
+    '      <Envoyer_Rapport>0</Envoyer_Rapport>\r\n' +
+    '      <MailDestinataire>dominque.m@nuxilog.fr</MailDestinataire>\r\n' +
+    '      <NotifErr>1</NotifErr>\r\n' +
+    '      <NotifInf>0</NotifInf>\r\n' +
+    '      <NotifImp>0</NotifImp>\r\n' +
+    '      <Globaliser_Enreg_Import>0</Globaliser_Enreg_Import>\r\n' +
+    '    </Mail_Rapport>\r\n' +
+    '    <ScriptComplementaire>[CONFIG]&#13;\r\n' +
+    'LIMITER_ARTICLE=NON&#13;\r\n' +
+    'PHOTO=C:\\Users\\Public\\Documents\\NuxiDev Import\\4\\Images\\&#13;\r\n' +
+    'PHOTO_FORMAT=LIEN&#13;\r\n' +
+    'BON_DE_TRANSFERT=TransferRequests&#13;\r\n' +
+    'gCodeDynamiqueStdXML=L&#13;\r\n' +
+    '</ScriptComplementaire>\r\n' +
+    '    <Drive>\r\n' +
+    '      <Type_Drive/>\r\n' +
+    '    </Drive>\r\n' +
+    '  </Complement>\r\n' +
+    '  <Sources>\r\n' +
+    '    <Source>\r\n' +
+    '      <Provider>SQLOLEDB</Provider>\r\n' +
+    '      <Serveur>localhost\\ebp</Serveur>\r\n' +
+    '      <Nom_BDD>DemoHouda_0895452f-b7c1-4c00-a316-c6a6d0ea4bf4</Nom_BDD>\r\n' +
+    '      <Utilisateur>sa</Utilisateur>\r\n' +
+    '      <MDP>@ebp78EBP</MDP>\r\n' +
+    '      <Lecture_Seule>0</Lecture_Seule>\r\n' +
+    '      <IP_Public/>\r\n' +
+    '      <Port_Public/>\r\n' +
+    '      <Tokens>\r\n' +
+    '        <Token>\r\n' +
+    '          <IDPoste>*</IDPoste>\r\n' +
+    '          <Valeur/>\r\n' +
+    '          <Proprietes>\r\n' +
+    '            <Valeur/>\r\n' +
+    '            <Actualisation/>\r\n' +
+    '            <DateExpiration/>\r\n' +
+    '            <DateExpirationUTC/>\r\n' +
+    '          </Proprietes>\r\n' +
+    '        </Token>\r\n' +
+    '      </Tokens>\r\n' +
+    '      <Status>1</Status>\r\n' +
+    '      <StatusLibelle> Ok : SQL</StatusLibelle>\r\n' +
+    '    </Source>\r\n' +
+    '    <Source>\r\n' +
+    '      <Provider/>\r\n' +
+    '      <Serveur/>\r\n' +
+    '      <Nom_BDD/>\r\n' +
+    '      <Utilisateur/>\r\n' +
+    '      <MDP/>\r\n' +
+    '      <Lecture_Seule>0</Lecture_Seule>\r\n' +
+    '      <IP_Public/>\r\n' +
+    '      <Port_Public/>\r\n' +
+    '      <Tokens>\r\n' +
+    '        <Token>\r\n' +
+    '          <IDPoste>*</IDPoste>\r\n' +
+    '          <Valeur/>\r\n' +
+    '          <Proprietes>\r\n' +
+    '            <Valeur/>\r\n' +
+    '            <Actualisation/>\r\n' +
+    '            <DateExpiration/>\r\n' +
+    '            <DateExpirationUTC/>\r\n' +
+    '          </Proprietes>\r\n' +
+    '        </Token>\r\n' +
+    '      </Tokens>\r\n' +
+    '      <Status/>\r\n' +
+    '      <StatusLibelle/>\r\n' +
+    '    </Source>\r\n' +
+    '    <Source>\r\n' +
+    '      <Provider/>\r\n' +
+    '      <Serveur/>\r\n' +
+    '      <Nom_BDD/>\r\n' +
+    '      <Utilisateur/>\r\n' +
+    '      <MDP/>\r\n' +
+    '      <Lecture_Seule>0</Lecture_Seule>\r\n' +
+    '      <IP_Public/>\r\n' +
+    '      <Port_Public/>\r\n' +
+    '      <Tokens>\r\n' +
+    '        <Token>\r\n' +
+    '          <IDPoste>*</IDPoste>\r\n' +
+    '          <Valeur/>\r\n' +
+    '          <Proprietes>\r\n' +
+    '            <Valeur/>\r\n' +
+    '            <Actualisation/>\r\n' +
+    '            <DateExpiration/>\r\n' +
+    '            <DateExpirationUTC/>\r\n' +
+    '          </Proprietes>\r\n' +
+    '        </Token>\r\n' +
+    '      </Tokens>\r\n' +
+    '      <Status/>\r\n' +
+    '      <StatusLibelle/>\r\n' +
+    '    </Source>\r\n' +
+    '    <Source>\r\n' +
+    '      <Provider/>\r\n' +
+    '      <Serveur/>\r\n' +
+    '      <Nom_BDD/>\r\n' +
+    '      <Utilisateur/>\r\n' +
+    '      <MDP/>\r\n' +
+    '      <Lecture_Seule>0</Lecture_Seule>\r\n' +
+    '      <IP_Public/>\r\n' +
+    '      <Port_Public/>\r\n' +
+    '      <Tokens>\r\n' +
+    '        <Token>\r\n' +
+    '          <IDPoste>*</IDPoste>\r\n' +
+    '          <Valeur/>\r\n' +
+    '          <Proprietes>\r\n' +
+    '            <Valeur/>\r\n' +
+    '            <Actualisation/>\r\n' +
+    '            <DateExpiration/>\r\n' +
+    '            <DateExpirationUTC/>\r\n' +
+    '          </Proprietes>\r\n' +
+    '        </Token>\r\n' +
+    '      </Tokens>\r\n' +
+    '      <Status/>\r\n' +
+    '      <StatusLibelle/>\r\n' +
+    '    </Source>\r\n' +
+    '  </Sources>\r\n' +
+    '  <Liaisons_Externes>\r\n' +
+    '    <Dossier_Import>C:\\Users\\Public\\Documents\\Synchro NuxiDev\\NUXIDEVA612\\Import</Dossier_Import>\r\n' +
+    '    <Dossier_Export>C:\\Users\\Public\\Documents\\Synchro NuxiDev\\NUXIDEVA612\\Export</Dossier_Export>\r\n' +
+    '    <Liaisons>\r\n' +
+    '      <Liaison>\r\n' +
+    '        <Logiciel>C:\\Program Files\\EBP\\Invoicing24.0FRFR40\\EBP.Invoicing.Application.exe</Logiciel>\r\n' +
+    '        <Config>C:\\Users\\Dominique\\Documents\\DemoHouda.ebp</Config>\r\n' +
+    '        <Utilisateur>EBPSDKx</Utilisateur>\r\n' +
+    '        <MDP>EBPSDK</MDP>\r\n' +
+    '      </Liaison>\r\n' +
+    '      <Liaison>\r\n' +
+    '        <Logiciel/>\r\n' +
+    '        <Config/>\r\n' +
+    '        <Utilisateur/>\r\n' +
+    '        <MDP/>\r\n' +
+    '      </Liaison>\r\n' +
+    '      <Liaison>\r\n' +
+    '        <Logiciel/>\r\n' +
+    '        <Config/>\r\n' +
+    '        <Utilisateur/>\r\n' +
+    '        <MDP/>\r\n' +
+    '      </Liaison>\r\n' +
+    '      <Liaison>\r\n' +
+    '        <Logiciel/>\r\n' +
+    '        <Config/>\r\n' +
+    '        <Utilisateur/>\r\n' +
+    '        <MDP/>\r\n' +
+    '      </Liaison>\r\n' +
+    '    </Liaisons>\r\n' +
+    '    <Agenda>\r\n' +
+    '      <Type_Agenda>Google</Type_Agenda>\r\n' +
+    '      <Correspondances>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>CO00002</ID_Salarie>\r\n' +
+    '          <ID_Agenda>60mb9cl76i117qm2hkd6emaqio@group.calendar.google.com</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '      </Correspondances>\r\n' +
+    '      <Token>\r\n' +
+    '        <Valeur>PD94bWwgdmVyc2lvbj0iMS4wIj8+PERPQ1VNRU5UIHhtbG5zOlNPQVBfRU5DPSJodHRwOi8vc2NoZW1h\r\n' +
+    'cy54bWxzb2FwLm9yZy9zb2FwL2VuY29kaW5nLyIgeG1sbnM6eHNpID0gImh0dHA6Ly93d3cudzMub3Jn\r\n' +
+    'LzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIj48QXV0aFRva2VuIGlkPSJpZDAiPjxfX1NlcmlhbGlzYXRp\r\n' +
+    'b25fXz5BUUFBQUFFQUFBQVZBd0FBMndFQUFIc0tJQ0FpWVdOalpYTnpYM1J2YTJWdUlqb2dJbmxoTWpr\r\n' +
+    'dVlUQkJXR1ZQT0RCVGRHSTJhR3RsVlZwak5rODBiMkZYT1cxQmQzZFNWazQwV0RoWWRVTkthMDVUWmpZ\r\n' +
+    'eU5uZEliRWhxWTJ4aGRqUjNZVTVsTVU1TVJEQklORGxtUTJSRlpVTXdiR1o0UWpCNE4yNXJMVzAwYUZG\r\n' +
+    'RFgzSkxXV1ZyUWxsWFNGQlhPWEE1Ymt4elNtMUZhbmxYYVcxM1JEVXhaMk14YzNaRVNUVjJiVUp2V1ZG\r\n' +
+    'M1MydHdXV2xNUm5kWE9UQlJlbkZIUkZsdlZrTk9iWFpZY21GcGMwNXRhRk5CZUhkaFEyZFpTMEZUV1ZO\r\n' +
+    'QlVrbFRSbEZJUjFneVRXbGhkRmQ1WVdkTGRFcE1SMUU0Y2pkQ2FuSnZRbE4zTURFM05TSXNDaUFnSW1W\r\n' +
+    'NGNHbHlaWE5mYVc0aU9pQXpOVGs1TEFvZ0lDSnlaV1p5WlhOb1gzUnZhMlZ1SWpvZ0lqRXZMekF6VWxK\r\n' +
+    'Qk5rdzRiV1JWWkMxRFoxbEpRVkpCUVVkQlRWTk9kMFl0VERsSmNuZFdaR1JOTjNoYWJEaHFiRFJpZHpJ\r\n' +
+    'eWNXSlhVMnRyVEVvME5VVnNZbVp6VUhZM0xVSkVSR2xqZUcxRGRGUklUSFJXUjNkeE4xTlZjblJvZFUw\r\n' +
+    'MGNtUlpNSE1pTEFvZ0lDSnpZMjl3WlNJNklDSm9kSFJ3Y3pvdkwzZDNkeTVuYjI5bmJHVmhjR2x6TG1O\r\n' +
+    'dmJTOWhkWFJvTDJOaGJHVnVaR0Z5SWl3S0lDQWlkRzlyWlc1ZmRIbHdaU0k2SUNKQ1pXRnlaWElpQ24w\r\n' +
+    'RkFBQUFMZ0VBQVAvT2lQRlZBQUFBTmpjNE9EazNNemd6TURVM0xYSm1iM1J0YWpkc2NUUXlhR016TW1R\r\n' +
+    'MWJXd3pNalIyYjJGclpETm1ZelZvTG1Gd2NITXVaMjl2WjJ4bGRYTmxjbU52Ym5SbGJuUXVZMjl0QVA3\r\n' +
+    'dG1PSC96b2p4SlFBQUFHMXFXRWh2TkhSblprMTBYMUZQYzJwMGVIaG9RbVZhZFFEKzdaamgvODZJOFRZ\r\n' +
+    'QUFBQm9kSFJ3Y3pvdkwyRmpZMjkxYm5SekxtZHZiMmRzWlM1amIyMHZieTl2WVhWMGFESXZZWFYwYUFE\r\n' +
+    'KzdaamgvODZJOFRjQUFBQm9kSFJ3Y3pvdkwyRmpZMjkxYm5SekxtZHZiMmRzWlM1amIyMHZieTl2WVhW\r\n' +
+    'MGFESXZkRzlyWlc0QS91Mlk0Zi9PaVBFMUFBQUFhSFIwY0hNNkx5OTNkM2N1WjI5dloyeGxZWEJwY3k1\r\n' +
+    'amIyMHZZWFYwYUM5allXeGxibVJoY2dEKzdaamhBQUFBQUFBQUFBQUFBQUFBQUFBPTwvX19TZXJpYWxp\r\n' +
+    'c2F0aW9uX18+PEFjdHVhbGlzYXRpb24+MS8vMDNSUkE2TDhtZFVkLUNnWUlBUkFBR0FNU053Ri1MOUly\r\n' +
+    'd1ZkZE03eFpsOGpsNGJ3MjJxYldTa2tMSjQ1RWxiZnNQdjctQkREaWN4bUN0VEhMdFZHd3E3U1VydGh1\r\n' +
+    'TTRyZFkwczwvQWN0dWFsaXNhdGlvbj48RGF0ZUV4cGlyYXRpb24+MjAyNS0wMi0xMlQxNzo1MTo0OC43\r\n' +
+    'OTI8L0RhdGVFeHBpcmF0aW9uPjwvQXV0aFRva2VuPjwvRE9DVU1FTlQ+</Valeur>\r\n' +
+    '      </Token>\r\n' +
+    '    </Agenda>\r\n' +
+    '  </Liaisons_Externes>\r\n' +
+    '  <Planifications>\r\n' +
+    '    <FuseauHoraire>Europe/Paris</FuseauHoraire>\r\n' +
+    '    <FuseauHoraireValeur>+01:00</FuseauHoraireValeur>\r\n' +
+    '  </Planifications>\r\n' +
+    '  <Info>\r\n' +
+    '    <Exe>C:\\Mes Projets\\Synchro NuxiDev\\Exe\\ExÃ©cutable Windows 64 bits\\Synchro NuxiDev.exe</Exe>\r\n' +
+    '    <Serial>4A2D-4597-BG33-8C7G-E5AG</Serial>\r\n' +
+    '    <NuxiAutomateInstall>1</NuxiAutomateInstall>\r\n' +
+    '    <NuxiAutomateLibelle>Version : 6.11.23.9</NuxiAutomateLibelle>\r\n' +
+    '    <DateMAJConfig>20250305093300664</DateMAJConfig>\r'... 115140 more characters,
+  Premium: 1,
+  Options: '25;NUXIDEVA612;A',
+  Tablettes: '1;EBP GesCom Open Line;EBPGesComOL|2;EBP Gestion Open Line;GesCom'
+}
+Authentification réussie: {
+  ID: 399,
+  IDSynchro: 'NUXIDEVA612',
+  IDClient: 372,
+  ConfigConnecteur: '<?xml version="1.0" encoding="UTF-8"?>\r\n' +
+    '<Connexion>\r\n' +
+    '  <Complement>\r\n' +
+    '    <EspaceClient>\r\n' +
+    '      <Utilisateur>NUXIDEVA612</Utilisateur>\r\n' +
+    '      <MDP>0</MDP>\r\n' +
+    '    </EspaceClient>\r\n' +
+    '    <APIKey_Google>api.gouv.fr</APIKey_Google>\r\n' +
+    '    <Mail_Rapport>\r\n' +
+    '      <Envoyer_Rapport>0</Envoyer_Rapport>\r\n' +
+    '      <MailDestinataire>dominque.m@nuxilog.fr</MailDestinataire>\r\n' +
+    '      <NotifErr>1</NotifErr>\r\n' +
+    '      <NotifInf>0</NotifInf>\r\n' +
+    '      <NotifImp>0</NotifImp>\r\n' +
+    '      <Globaliser_Enreg_Import>0</Globaliser_Enreg_Import>\r\n' +
+    '    </Mail_Rapport>\r\n' +
+    '    <ScriptComplementaire>[CONFIG]&#13;\r\n' +
+    'LIMITER_ARTICLE=NON&#13;\r\n' +
+    'PHOTO=C:\\Users\\Public\\Documents\\NuxiDev Import\\4\\Images\\&#13;\r\n' +
+    'PHOTO_FORMAT=LIEN&#13;\r\n' +
+    'BON_DE_TRANSFERT=TransferRequests&#13;\r\n' +
+    'gCodeDynamiqueStdXML=L&#13;\r\n' +
+    '</ScriptComplementaire>\r\n' +
+    '    <Drive>\r\n' +
+    '      <Type_Drive/>\r\n' +
+    '    </Drive>\r\n' +
+    '  </Complement>\r\n' +
+    '  <Sources>\r\n' +
+    '    <Source>\r\n' +
+    '      <Provider>SQLOLEDB</Provider>\r\n' +
+    '      <Serveur>localhost\\ebp</Serveur>\r\n' +
+    '      <Nom_BDD>DemoHouda_0895452f-b7c1-4c00-a316-c6a6d0ea4bf4</Nom_BDD>\r\n' +
+    '      <Utilisateur>sa</Utilisateur>\r\n' +
+    '      <MDP>@ebp78EBP</MDP>\r\n' +
+    '      <Lecture_Seule>0</Lecture_Seule>\r\n' +
+    '      <IP_Public/>\r\n' +
+    '      <Port_Public/>\r\n' +
+    '      <Tokens>\r\n' +
+    '        <Token>\r\n' +
+    '          <IDPoste>*</IDPoste>\r\n' +
+    '          <Valeur/>\r\n' +
+    '          <Proprietes>\r\n' +
+    '            <Valeur/>\r\n' +
+    '            <Actualisation/>\r\n' +
+    '            <DateExpiration/>\r\n' +
+    '            <DateExpirationUTC/>\r\n' +
+    '          </Proprietes>\r\n' +
+    '        </Token>\r\n' +
+    '      </Tokens>\r\n' +
+    '      <Status>1</Status>\r\n' +
+    '      <StatusLibelle> Ok : SQL</StatusLibelle>\r\n' +
+    '    </Source>\r\n' +
+    '    <Source>\r\n' +
+    '      <Provider/>\r\n' +
+    '      <Serveur/>\r\n' +
+    '      <Nom_BDD/>\r\n' +
+    '      <Utilisateur/>\r\n' +
+    '      <MDP/>\r\n' +
+    '      <Lecture_Seule>0</Lecture_Seule>\r\n' +
+    '      <IP_Public/>\r\n' +
+    '      <Port_Public/>\r\n' +
+    '      <Tokens>\r\n' +
+    '        <Token>\r\n' +
+    '          <IDPoste>*</IDPoste>\r\n' +
+    '          <Valeur/>\r\n' +
+    '          <Proprietes>\r\n' +
+    '            <Valeur/>\r\n' +
+    '            <Actualisation/>\r\n' +
+    '            <DateExpiration/>\r\n' +
+    '            <DateExpirationUTC/>\r\n' +
+    '          </Proprietes>\r\n' +
+    '        </Token>\r\n' +
+    '      </Tokens>\r\n' +
+    '      <Status/>\r\n' +
+    '      <StatusLibelle/>\r\n' +
+    '    </Source>\r\n' +
+    '    <Source>\r\n' +
+    '      <Provider/>\r\n' +
+    '      <Serveur/>\r\n' +
+    '      <Nom_BDD/>\r\n' +
+    '      <Utilisateur/>\r\n' +
+    '      <MDP/>\r\n' +
+    '      <Lecture_Seule>0</Lecture_Seule>\r\n' +
+    '      <IP_Public/>\r\n' +
+    '      <Port_Public/>\r\n' +
+    '      <Tokens>\r\n' +
+    '        <Token>\r\n' +
+    '          <IDPoste>*</IDPoste>\r\n' +
+    '          <Valeur/>\r\n' +
+    '          <Proprietes>\r\n' +
+    '            <Valeur/>\r\n' +
+    '            <Actualisation/>\r\n' +
+    '            <DateExpiration/>\r\n' +
+    '            <DateExpirationUTC/>\r\n' +
+    '          </Proprietes>\r\n' +
+    '        </Token>\r\n' +
+    '      </Tokens>\r\n' +
+    '      <Status/>\r\n' +
+    '      <StatusLibelle/>\r\n' +
+    '    </Source>\r\n' +
+    '    <Source>\r\n' +
+    '      <Provider/>\r\n' +
+    '      <Serveur/>\r\n' +
+    '      <Nom_BDD/>\r\n' +
+    '      <Utilisateur/>\r\n' +
+    '      <MDP/>\r\n' +
+    '      <Lecture_Seule>0</Lecture_Seule>\r\n' +
+    '      <IP_Public/>\r\n' +
+    '      <Port_Public/>\r\n' +
+    '      <Tokens>\r\n' +
+    '        <Token>\r\n' +
+    '          <IDPoste>*</IDPoste>\r\n' +
+    '          <Valeur/>\r\n' +
+    '          <Proprietes>\r\n' +
+    '            <Valeur/>\r\n' +
+    '            <Actualisation/>\r\n' +
+    '            <DateExpiration/>\r\n' +
+    '            <DateExpirationUTC/>\r\n' +
+    '          </Proprietes>\r\n' +
+    '        </Token>\r\n' +
+    '      </Tokens>\r\n' +
+    '      <Status/>\r\n' +
+    '      <StatusLibelle/>\r\n' +
+    '    </Source>\r\n' +
+    '  </Sources>\r\n' +
+    '  <Liaisons_Externes>\r\n' +
+    '    <Dossier_Import>C:\\Users\\Public\\Documents\\Synchro NuxiDev\\NUXIDEVA612\\Import</Dossier_Import>\r\n' +
+    '    <Dossier_Export>C:\\Users\\Public\\Documents\\Synchro NuxiDev\\NUXIDEVA612\\Export</Dossier_Export>\r\n' +
+    '    <Liaisons>\r\n' +
+    '      <Liaison>\r\n' +
+    '        <Logiciel>C:\\Program Files\\EBP\\Invoicing24.0FRFR40\\EBP.Invoicing.Application.exe</Logiciel>\r\n' +
+    '        <Config>C:\\Users\\Dominique\\Documents\\DemoHouda.ebp</Config>\r\n' +
+    '        <Utilisateur>EBPSDKx</Utilisateur>\r\n' +
+    '        <MDP>EBPSDK</MDP>\r\n' +
+    '      </Liaison>\r\n' +
+    '      <Liaison>\r\n' +
+    '        <Logiciel/>\r\n' +
+    '        <Config/>\r\n' +
+    '        <Utilisateur/>\r\n' +
+    '        <MDP/>\r\n' +
+    '      </Liaison>\r\n' +
+    '      <Liaison>\r\n' +
+    '        <Logiciel/>\r\n' +
+    '        <Config/>\r\n' +
+    '        <Utilisateur/>\r\n' +
+    '        <MDP/>\r\n' +
+    '      </Liaison>\r\n' +
+    '      <Liaison>\r\n' +
+    '        <Logiciel/>\r\n' +
+    '        <Config/>\r\n' +
+    '        <Utilisateur/>\r\n' +
+    '        <MDP/>\r\n' +
+    '      </Liaison>\r\n' +
+    '    </Liaisons>\r\n' +
+    '    <Agenda>\r\n' +
+    '      <Type_Agenda>Google</Type_Agenda>\r\n' +
+    '      <Correspondances>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>CO00002</ID_Salarie>\r\n' +
+    '          <ID_Agenda>60mb9cl76i117qm2hkd6emaqio@group.calendar.google.com</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '        <Correspondance>\r\n' +
+    '          <ID_Salarie>-1</ID_Salarie>\r\n' +
+    '          <ID_Agenda>-1</ID_Agenda>\r\n' +
+    '        </Correspondance>\r\n' +
+    '      </Correspondances>\r\n' +
+    '      <Token>\r\n' +
+    '        <Valeur>PD94bWwgdmVyc2lvbj0iMS4wIj8+PERPQ1VNRU5UIHhtbG5zOlNPQVBfRU5DPSJodHRwOi8vc2NoZW1h\r\n' +
+    'cy54bWxzb2FwLm9yZy9zb2FwL2VuY29kaW5nLyIgeG1sbnM6eHNpID0gImh0dHA6Ly93d3cudzMub3Jn\r\n' +
+    'LzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIj48QXV0aFRva2VuIGlkPSJpZDAiPjxfX1NlcmlhbGlzYXRp\r\n' +
+    'b25fXz5BUUFBQUFFQUFBQVZBd0FBMndFQUFIc0tJQ0FpWVdOalpYTnpYM1J2YTJWdUlqb2dJbmxoTWpr\r\n' +
+    'dVlUQkJXR1ZQT0RCVGRHSTJhR3RsVlZwak5rODBiMkZYT1cxQmQzZFNWazQwV0RoWWRVTkthMDVUWmpZ\r\n' +
+    'eU5uZEliRWhxWTJ4aGRqUjNZVTVsTVU1TVJEQklORGxtUTJSRlpVTXdiR1o0UWpCNE4yNXJMVzAwYUZG\r\n' +
+    'RFgzSkxXV1ZyUWxsWFNGQlhPWEE1Ymt4elNtMUZhbmxYYVcxM1JEVXhaMk14YzNaRVNUVjJiVUp2V1ZG\r\n' +
+    'M1MydHdXV2xNUm5kWE9UQlJlbkZIUkZsdlZrTk9iWFpZY21GcGMwNXRhRk5CZUhkaFEyZFpTMEZUV1ZO\r\n' +
+    'QlVrbFRSbEZJUjFneVRXbGhkRmQ1WVdkTGRFcE1SMUU0Y2pkQ2FuSnZRbE4zTURFM05TSXNDaUFnSW1W\r\n' +
+    'NGNHbHlaWE5mYVc0aU9pQXpOVGs1TEFvZ0lDSnlaV1p5WlhOb1gzUnZhMlZ1SWpvZ0lqRXZMekF6VWxK\r\n' +
+    'Qk5rdzRiV1JWWkMxRFoxbEpRVkpCUVVkQlRWTk9kMFl0VERsSmNuZFdaR1JOTjNoYWJEaHFiRFJpZHpJ\r\n' +
+    'eWNXSlhVMnRyVEVvME5VVnNZbVp6VUhZM0xVSkVSR2xqZUcxRGRGUklUSFJXUjNkeE4xTlZjblJvZFUw\r\n' +
+    'MGNtUlpNSE1pTEFvZ0lDSnpZMjl3WlNJNklDSm9kSFJ3Y3pvdkwzZDNkeTVuYjI5bmJHVmhjR2x6TG1O\r\n' +
+    'dmJTOWhkWFJvTDJOaGJHVnVaR0Z5SWl3S0lDQWlkRzlyWlc1ZmRIbHdaU0k2SUNKQ1pXRnlaWElpQ24w\r\n' +
+    'RkFBQUFMZ0VBQVAvT2lQRlZBQUFBTmpjNE9EazNNemd6TURVM0xYSm1iM1J0YWpkc2NUUXlhR016TW1R\r\n' +
+    'MWJXd3pNalIyYjJGclpETm1ZelZvTG1Gd2NITXVaMjl2WjJ4bGRYTmxjbU52Ym5SbGJuUXVZMjl0QVA3\r\n' +
+    'dG1PSC96b2p4SlFBQUFHMXFXRWh2TkhSblprMTBYMUZQYzJwMGVIaG9RbVZhZFFEKzdaamgvODZJOFRZ\r\n' +
+    'QUFBQm9kSFJ3Y3pvdkwyRmpZMjkxYm5SekxtZHZiMmRzWlM1amIyMHZieTl2WVhWMGFESXZZWFYwYUFE\r\n' +
+    'KzdaamgvODZJOFRjQUFBQm9kSFJ3Y3pvdkwyRmpZMjkxYm5SekxtZHZiMmRzWlM1amIyMHZieTl2WVhW\r\n' +
+    'MGFESXZkRzlyWlc0QS91Mlk0Zi9PaVBFMUFBQUFhSFIwY0hNNkx5OTNkM2N1WjI5dloyeGxZWEJwY3k1\r\n' +
+    'amIyMHZZWFYwYUM5allXeGxibVJoY2dEKzdaamhBQUFBQUFBQUFBQUFBQUFBQUFBPTwvX19TZXJpYWxp\r\n' +
+    'c2F0aW9uX18+PEFjdHVhbGlzYXRpb24+MS8vMDNSUkE2TDhtZFVkLUNnWUlBUkFBR0FNU053Ri1MOUly\r\n' +
+    'd1ZkZE03eFpsOGpsNGJ3MjJxYldTa2tMSjQ1RWxiZnNQdjctQkREaWN4bUN0VEhMdFZHd3E3U1VydGh1\r\n' +
+    'TTRyZFkwczwvQWN0dWFsaXNhdGlvbj48RGF0ZUV4cGlyYXRpb24+MjAyNS0wMi0xMlQxNzo1MTo0OC43\r\n' +
+    'OTI8L0RhdGVFeHBpcmF0aW9uPjwvQXV0aFRva2VuPjwvRE9DVU1FTlQ+</Valeur>\r\n' +
+    '      </Token>\r\n' +
+    '    </Agenda>\r\n' +
+    '  </Liaisons_Externes>\r\n' +
+    '  <Planifications>\r\n' +
+    '    <FuseauHoraire>Europe/Paris</FuseauHoraire>\r\n' +
+    '    <FuseauHoraireValeur>+01:00</FuseauHoraireValeur>\r\n' +
+    '  </Planifications>\r\n' +
+    '  <Info>\r\n' +
+    '    <Exe>C:\\Mes Projets\\Synchro NuxiDev\\Exe\\ExÃ©cutable Windows 64 bits\\Synchro NuxiDev.exe</Exe>\r\n' +
+    '    <Serial>4A2D-4597-BG33-8C7G-E5AG</Serial>\r\n' +
+    '    <NuxiAutomateInstall>1</NuxiAutomateInstall>\r\n' +
+    '    <NuxiAutomateLibelle>Version : 6.11.23.9</NuxiAutomateLibelle>\r\n' +
+    '    <DateMAJConfig>20250305093300664</DateMAJConfig>\r'... 115140 more characters,
+  Premium: 1,
+  Options: '25;NUXIDEVA612;A',
+  Tablettes: '1;EBP GesCom Open Line;EBPGesComOL|2;EBP Gestion Open Line;GesCom'
+}
+2:13:41 PM [express] POST /api/login 200 in 535ms :: {"ID":399,"IDSynchro":"NUXIDEVA612","IDClient":…
+
+=== DÉSÉRIALISATION UTILISATEUR ===
+Session utilisateur reçue: { ID: 399, IDSynchro: 'NUXIDEVA612', IDClient: 372 }
+Requête SQL: SELECT ID, IDSynchro, IDClient, ConfigConnecteur, Premium, Options, Tablettes FROM licences2 WHERE ID = ?
+ID utilisé: 399
+Utilisateur désérialisé avec succès
+=== FIN DÉSÉRIALISATION UTILISATEUR ===
+
+
+=== REQUÊTE HISTORIQUE SYNC ===
+Configuration HISTOSYNC:
+Host: dd25990-001.eu.clouddb.ovh.net
+Port: 35414
+Database: NuxiDev2024SAV
+
+Paramètres de recherche:
+IDSynchro: NUXIDEVA612
+Page: 1
+Taille de page: 10
+Erreurs uniquement: false
+Filtre date: undefined
+Texte recherché: undefined
+
+Requête de comptage: SELECT COUNT(*) as total FROM syncsav WHERE IDSynchro = ?
+Paramètres: [ 'NUXIDEVA612' ]
+Erreur lors de la récupération de l'historique: Error: connect ECONNREFUSED 127.0.0.1:35414
+    at PromisePool.query (/home/runner/workspace/node_modules/mysql2/lib/promise/pool.js:36:22)
+    at getSyncHistory (/home/runner/workspace/server/db-histosync.ts:69:47)
+    at <anonymous> (/home/runner/workspace/server/routes.ts:231:28)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/workspace/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/runner/workspace/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at strategy.pass (/home/runner/workspace/node_modules/passport/lib/middleware/authenticate.js:355:9)
+    at /home/runner/workspace/node_modules/passport/lib/strategies/session.js:120:12
+    at pass (/home/runner/workspace/node_modules/passport/lib/authenticator.js:352:31)
+    at deserialized (/home/runner/workspace/node_modules/passport/lib/authenticator.js:364:7)
+    at <anonymous> (/home/runner/workspace/server/auth.ts:94:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ECONNREFUSED',
+  errno: -111,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined
+}
+Error fetching sync history: Error: Impossible de récupérer l'historique de synchronisation
+    at getSyncHistory (/home/runner/workspace/server/db-histosync.ts:101:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:231:22)
+2:13:44 PM [express] GET /api/sync-history 500 in 541ms :: {"error":"Failed to fetch sync history"}

@@ -1,0 +1,32 @@
+2. Contenu du XML avant parsing: <?xml version="1.0" encoding="UTF-8"?>
+<NuxiDev>
+  <Logiciel>EBPGesComOL-&amp;gt;GesCom</Logiciel>
+ ...
+XML document: 
+XMLDocument {location: null}
+3. Parsing XML: 
+Object {success: true, isDocument: true, hasRootElement: true}
+4. Valeur DateMAJ trouvée: 20250305093333839
+XML document: 
+XMLDocument {location: null}
+XML document: 
+XMLDocument {location: null}
+
+=== DONNÉES UTILISATEUR CÔTÉ CLIENT ===
+Utilisateur complet: 
+Object {ID: 399, IDSynchro: "NUXIDEVA612", IDClient: 372, ConfigConnecteur: "<?xml version="1.0" encoding="UTF-8"?>↵<Connexion>↵  <Complement>↵   …", Premium: 1, …}
+Type de l'objet utilisateur: object
+Propriétés de l'objet utilisateur: 
+(7) ["ID", "IDSynchro", "IDClient", "ConfigConnecteur", "Premium", "Options", "Tablettes"]
+ID: 399
+IDSynchro: NUXIDEVA612
+IDClient: 372
+Comptage planifications brut: undefined
+Type de planningCounts: undefined
+⚠️ Aucun comptage de planifications reçu!
+Contenu complet de user: {
+  "ID": 399,
+  "IDSynchro": "NUXIDEVA612",
+  "IDClient": 372,
+  "ConfigConnecteur": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<Connexion>\r\n  <Complement>\r\n    <EspaceClient>\r\n      <Utilisateur>NUXIDEVA612</Utilisateur>\r\n      <MDP>0</MDP>\r\n    </EspaceClient>\r\n    <APIKey_Google>api.gouv.fr</APIKey_Google>\r\n    <Mail_Rapport>\r\n      <Envoyer_Rapport>0</Envoyer_Rapport>\r\n      <MailDestinataire>dominque.m@nuxilog.fr</MailDestinataire>\r\n      <NotifErr>1</NotifErr>\r\n      <NotifInf>0</NotifInf>\r\n      <NotifImp>0</NotifImp>\r\n      <Globaliser_Enreg_Import>0</Globaliser_Enreg_Import>\r\n    </Mail_Rapport>\r\n    <ScriptComplementaire>[CONFIG]&#13;\r\nLIMITER_ARTICLE=NON&#13;\r\nPHOTO=C:\\Users\\Public\\Documents\\NuxiDev Import\\4\\Images\\&#13;\r\nPHOTO_FORMAT=LIEN&#13;\r\nBON_DE_TRANSFERT=TransferRequests&#13;\r\ngCodeDynamiqueStdXML=L</ScriptComplementaire>\r\n    <Drive>\r\n      <Type_Drive/>\r\n    </Drive>\r\n  </Complement>\r\n  <Sources>\r\n    <Source>\r\n      <Provider>SQLOLEDB</Provider>\r\n      <Serveur>localhost\\ebp</Serveur>\r\n      <Nom_BDD>DemoHouda_0895452f-b7c1-4c00-a316-c6a6d0ea4bf4</Nom_BDD>\r\n      <Utilisateur>sa</Utilisateur>\r\n      <MDP>@ebp78EBP</MDP>\r\n      <Lecture_Seule>0</Lecture_Seule>\r\n      <IP_Public/>\r\n      <Port_Public/>\r\n      <Tokens>\r\n        <Token>\r\n          <IDPoste>*</IDPoste>\r\n          <Valeur/>\r\n          <Proprietes>\r\n            <Valeur/>\r\n            <Actualisation/>\r\n            <DateExpiration/>\r\n            <DateExpirationUTC/>\r\n          </Proprietes>\r\n        </Token>\r\n      </Tokens>\r\n    </Source>\r\n    <Source>\r\n      <Provider/>\r\n      <Serveur/>\r\n      <Nom_BDD/>\r\n      <Utilisateur/>\r\n      <MDP/>\r\n      <Lecture_Seule>0</Lecture_Seule>\r\n      <IP_Public/>\r\n      <Port_Public/>\r\n      <Tokens>\r\n        <Token>\r\n          <IDPoste>*</IDPoste>\r\n          <Valeur/>\r\n          <Proprietes>\r\n            <Valeur/>\r\n            <Actualisation/>\r\n            <DateExpiration/>\r\n            <DateExpirationUTC/>\r\n          </Proprietes>\r\n        </Token>\r\n      </Tokens>\r\n    </Source>\r\n    <Source>\r\n      <Provider/>\r\n      <Serveur/>\r\n      <Nom_BDD/>\r\n      <Utilisateur/>\r\n      <MDP/>\r\n      <Lecture_Seule>0</Lecture_Seule>\r\n      <IP_Public/>\r\n      <Port_Public/>\r\n      <Tokens>\r\n        <Token>\r\n          <IDPoste>*</IDPoste>\r\n          <Valeur/>\r\n          <Proprietes>\r\n            <Valeur/>\r\n            <Actualisation/>\r\n            <DateExpiration/>\r\n            <DateExpirationUTC/>\r\n          </Proprietes>\r\n        </Token>\r\n      </Tokens>\r\n    </Source>\r\n    <Source>\r\n      <Provider/>\r\n      <Serveur/>\r\n      <Nom_BDD/>\r\n      <Utilisateur/>\r\n      <MDP/>\r\n      <Lecture_Seule>0</Lecture_Seule>\r\n      <IP_Public/>\r\n      <Port_Public/>\r\n      <Tokens>\r\n        <Token>\r\n          <IDPoste>*</IDPoste>\r\n          <Valeur/>\r\n          <Proprietes>\r\n            <Valeur/>\r\n            <Actualisation/>\r\n            <DateExpiration/>\r\n            <DateExpirationUTC/>\r\n          </Proprietes>\r\n        </Token>\r\n      </Tokens>\r\n    </Source>\r\n  </Sources>\r\n  <Liaisons_Externes>\r\n    <Dossier_Import>C:\\Users\\Public\\Documents\\Synchro NuxiDev\\NUXIDEVA612\\Import</Dossier_Import>\r\n    <Dossier_Export>C:\\Users\\Public\\Documents\\Synchro NuxiDev\\NUXIDEVA612\\Export</Dossier_Export>\r\n    <Liaisons>\r\n      <Liaison>\r\n        <Logiciel>C:\\Program Files\\EBP\\Invoicing24.0FRFR40\\EBP.Invoicing.Application.exe</Logiciel>\r\n        <Config>C:\\Users\\Dominique\\Documents\\DemoHouda.ebp</Config>\r\n        <Utilisateur>EBPSDKx</Utilisateur>\r\n        <MDP>EBPSDK</MDP>\r\n      </Liaison>\r\n      <Liaison>\r\n        <Logiciel/>\r\n        <Config/>\r\n        <Utilisateur/>\r\n        <MDP/>\r\n      </Liaison>\r\n     …
+=== FIN DONNÉES UTILISATEUR CÔTÉ CLIENT ===

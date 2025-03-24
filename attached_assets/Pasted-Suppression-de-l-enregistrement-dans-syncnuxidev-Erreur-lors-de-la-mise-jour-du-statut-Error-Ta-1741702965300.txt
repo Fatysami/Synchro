@@ -1,0 +1,26 @@
+Suppression de l'enregistrement dans syncnuxidev
+Erreur lors de la mise à jour du statut: Error: Table 'Connecteur.syncnuxidev' doesn't exist
+    at PromisePool.query (/home/runner/workspace/node_modules/mysql2/lib/promise/pool.js:36:22)
+    at <anonymous> (/home/runner/workspace/server/routes.ts:454:26)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/workspace/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/runner/workspace/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:284:15
+    at param (/home/runner/workspace/node_modules/express/lib/router/index.js:365:14)
+    at param (/home/runner/workspace/node_modules/express/lib/router/index.js:376:14)
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:421:3)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at strategy.pass (/home/runner/workspace/node_modules/passport/lib/middleware/authenticate.js:355:9)
+    at /home/runner/workspace/node_modules/passport/lib/strategies/session.js:120:12
+    at pass (/home/runner/workspace/node_modules/passport/lib/authenticator.js:352:31)
+    at deserialized (/home/runner/workspace/node_modules/passport/lib/authenticator.js:364:7)
+    at <anonymous> (/home/runner/workspace/server/auth.ts:96:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sql: "DELETE FROM syncnuxidev WHERE IDInterne = 'NUXIDEVA61267c591917f0e1' AND IDSynchro = 'NUXIDEVA612' LIMIT 1",
+  sqlState: '42S02',
+  sqlMessage: "Table 'Connecteur.syncnuxidev' doesn't exist"
+}
+2:06:03 PM [express] PATCH /api/sync-history/NUXIDEVA61267c591917f0e1/status 500 in 538ms :: {"error…

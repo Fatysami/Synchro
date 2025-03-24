@@ -1,0 +1,61 @@
+🔄 [API] Données reçues /api/user: 
+Object {ID: 399, IDSynchro: "NUXIDEVA612", IDClient: 372, ConfigConnecteur: "<?xml version="1.0" encoding="UTF-8"?>↵<Connexion>↵  <Complement>↵   …", Premium: 1, …}
+ProtectedRoute - Auth state: 
+Object {user: {…}, isLoading: false}
+🔍 [Parse] Début parsing XML
+🔍 [Parse] Nombre de sources trouvées: 4
+🔍 [Parse] Source 1: 
+Object {Provider: "SQLOLEDB", Serveur: "localhostebp", Nom_BDD: "DemoHouda_0895452f-b7c1-4c00-a316-c6a6d0ea4bf4", Lecture_Seule: "0", Utilisateur: "sauuuzz", …}
+🔍 [Parse] Source 2: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+🔍 [Parse] Source 3: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+🔍 [Parse] Source 4: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+✅ [Parse] Parsing terminé avec succès
+🔍 [Render] Sources affichées: 4
+[🔍 Block 0] Rendering with source: 
+Object {Provider: "SQLOLEDB", Serveur: "localhostebp", Nom_BDD: "DemoHouda_0895452f-b7c1-4c00-a316-c6a6d0ea4bf4", Lecture_Seule: "0", Utilisateur: "sauuuzz", …}
+[🔍 Block 1] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+[🔍 Block 2] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+[🔍 Block 3] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+🔄 [API] Exécution requête /api/user
+🔄 [Init] Initialisation des sources depuis la config utilisateur
+🔍 [Parse] Début parsing XML
+🔍 [Parse] Nombre de sources trouvées: 4
+🔍 [Parse] Source 1: 
+Object {Provider: "SQLOLEDB", Serveur: "localhostebp", Nom_BDD: "DemoHouda_0895452f-b7c1-4c00-a316-c6a6d0ea4bf4", Lecture_Seule: "0", Utilisateur: "sauuuzz", …}
+🔍 [Parse] Source 2: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+🔍 [Parse] Source 3: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+🔍 [Parse] Source 4: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+✅ [Parse] Parsing terminé avec succès
+🔍 [Render] Sources affichées: 4
+[🔍 Block 0] Rendering with source: 
+Object {Provider: "SQLOLEDB", Serveur: "localhostebp", Nom_BDD: "DemoHouda_0895452f-b7c1-4c00-a316-c6a6d0ea4bf4", Lecture_Seule: "0", Utilisateur: "sauuuzz", …}
+[🔍 Block 1] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+[🔍 Block 2] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+[🔍 Block 3] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+🔄 [API] Réponse /api/user: 
+Object {status: 200, ok: true}
+🔄 [API] Données reçues /api/user: 
+Object {ID: 399, IDSynchro: "NUXIDEVA612", IDClient: 372, ConfigConnecteur: "<?xml version="1.0" encoding="UTF-8"?>↵<Connexion>↵  <Complement>↵   …", Premium: 1, …}
+ProtectedRoute - Auth state: 
+Object {user: {…}, isLoading: false}
+🔍 [Render] Sources affichées: 4
+[🔍 Block 0] Rendering with source: 
+Object {Provider: "SQLOLEDB", Serveur: "localhostebp", Nom_BDD: "DemoHouda_0895452f-b7c1-4c00-a316-c6a6d0ea4bf4", Lecture_Seule: "0", Utilisateur: "sauuuzz", …}
+[🔍 Block 1] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+[🔍 Block 2] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+[🔍 Block 3] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}

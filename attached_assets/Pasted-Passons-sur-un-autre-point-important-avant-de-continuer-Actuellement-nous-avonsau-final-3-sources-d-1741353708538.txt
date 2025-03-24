@@ -1,0 +1,26 @@
+Passons sur un autre point important avant de continuer. Actuellement nous avonsau final 3 sources de données : 
+- MySQL pour la table licence2
+- MySQl pour la table Synchro
+- XML de config issus de la rubrique licence2.ConfigConnecteur que nous nommerons “Connexion” puisque ça correspond au nom de sa première balise 
+Tout ça fonctionne très bien, donc ne touchons à rien pour le moment. 
+Je vais ajouter une 4eme source de données à récupérer pour la suite : 
+Cette 4eme source est un autre fichier XML qu’il faut télécharger via une URL https et à décrypter avant d’en obtenir un XML exploitable : 
+1. Composer l’URL de téléchargement par la concaténation de paramètre fixes et des valeurs issus du premier fichier xml “Connexion” :  
+Commençons par affecter la valeur à 2 variables qui serviront à la concaténation : 
+Temp = Extraire la 3ème valeur de licence2.Tablettes qui est séparé par des points virgules
+gsLogicielMaitreCode = Extraire la 1ère valeur de sTemp qui est séparé par un Pipe
+gsLogicielMobileCode = Extraire la 5ème valeur de licence2.Tablettes qui est séparé par des points virgules
+Faire la concaténation suivante pour avoir l’URL de téléchargement 
+URL = "https://nuxidev.fr/download/config/NuxiDev5-" + gsLogicielMaitreCode + "-" + gsLogicielMobileCode + ".dat"
+
+
+2. Télécharger le fichier ou le contenu binaire de ce lien URL composé et affectons ce résultat à une variable de type Buffer que nous nommerons bufCrypte
+
+
+3. Décrypter le contenu de bufCrypte pour en faire un XML exploitable. Voici la procédure de décryptage en WinDev que tu dois convertir dans ton language :
+bufCle			= HashChaîne(HA_MD5_128, "Moutiers_44760")
+XML_Décrypté	= DécrypteStandard(bufCrypte, bufCle, crypteAES128)
+
+4. Contrôler la validité de ce XML prouvera que le travail est bien fait
+
+Le téléchargement de ce XML doit être fait juste après l’authentification réussit et la récupération de la valeur licence2.Tablettes qui indirectement contient les éléments indispensable au traitement. Nous nommerons ce XML NuxiDev de façons arbitraire pour simplifier et sachant que sa première balise racine se nomme également NuxDev

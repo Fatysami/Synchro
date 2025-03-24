@@ -1,0 +1,4028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Connexion>
+  <Complement>
+    <EspaceClient>
+      <Utilisateur>NUXIDEVA612</Utilisateur>
+      <MDP>0</MDP>
+    </EspaceClient>
+    <APIKey_Google>api.gouv.fr</APIKey_Google>
+    <Mail_Rapport>
+      <Envoyer_Rapport>0</Envoyer_Rapport>
+      <MailDestinataire>dominque.m@nuxilog.fr</MailDestinataire>
+      <NotifErr>1</NotifErr>
+      <NotifInf>0</NotifInf>
+      <NotifImp>0</NotifImp>
+      <Globaliser_Enreg_Import>0</Globaliser_Enreg_Import>
+    </Mail_Rapport>
+    <ScriptComplementaire>[CONFIG]&#13;
+LIMITER_ARTICLE=NON&#13;
+PHOTO=C:\Users\Public\Documents\NuxiDev Import\4\Images\&#13;
+PHOTO_FORMAT=LIEN&#13;
+BON_DE_TRANSFERT=TransferRequests&#13;
+gCodeDynamiqueStdXML=L</ScriptComplementaire>
+    <Drive>
+      <Type_Drive/>
+    </Drive>
+  </Complement>
+  <Sources>
+    <Source>
+      <Provider>SQLOLEDB</Provider>
+      <Serveur>localhost\ebp</Serveur>
+      <Nom_BDD>DemoHouda_0895452f-b7c1-4c00-a316-c6a6d0ea4bf4</Nom_BDD>
+      <Utilisateur>sa</Utilisateur>
+      <MDP>@ebp78EBP</MDP>
+      <Lecture_Seule>0</Lecture_Seule>
+      <IP_Public/>
+      <Port_Public/>
+      <Tokens>
+        <Token>
+          <IDPoste>*</IDPoste>
+          <Valeur/>
+          <Proprietes>
+            <Valeur/>
+            <Actualisation/>
+            <DateExpiration/>
+            <DateExpirationUTC/>
+          </Proprietes>
+        </Token>
+      </Tokens>
+      <Status>1</Status>
+      <StatusLibelle> Ok : SQL</StatusLibelle>
+    </Source>
+    <Source>
+      <Provider/>
+      <Serveur/>
+      <Nom_BDD/>
+      <Utilisateur/>
+      <MDP/>
+      <Lecture_Seule>0</Lecture_Seule>
+      <IP_Public/>
+      <Port_Public/>
+      <Tokens>
+        <Token>
+          <IDPoste>*</IDPoste>
+          <Valeur/>
+          <Proprietes>
+            <Valeur/>
+            <Actualisation/>
+            <DateExpiration/>
+            <DateExpirationUTC/>
+          </Proprietes>
+        </Token>
+      </Tokens>
+    </Source>
+    <Source>
+      <Provider/>
+      <Serveur/>
+      <Nom_BDD/>
+      <Utilisateur/>
+      <MDP/>
+      <Lecture_Seule>0</Lecture_Seule>
+      <IP_Public/>
+      <Port_Public/>
+      <Tokens>
+        <Token>
+          <IDPoste>*</IDPoste>
+          <Valeur/>
+          <Proprietes>
+            <Valeur/>
+            <Actualisation/>
+            <DateExpiration/>
+            <DateExpirationUTC/>
+          </Proprietes>
+        </Token>
+      </Tokens>
+    </Source>
+    <Source>
+      <Provider/>
+      <Serveur/>
+      <Nom_BDD/>
+      <Utilisateur/>
+      <MDP/>
+      <Lecture_Seule>0</Lecture_Seule>
+      <IP_Public/>
+      <Port_Public/>
+      <Tokens>
+        <Token>
+          <IDPoste>*</IDPoste>
+          <Valeur/>
+          <Proprietes>
+            <Valeur/>
+            <Actualisation/>
+            <DateExpiration/>
+            <DateExpirationUTC/>
+          </Proprietes>
+        </Token>
+      </Tokens>
+    </Source>
+  </Sources>
+  <Liaisons_Externes>
+    <Dossier_Import>C:\Users\Public\Documents\Synchro NuxiDev\NUXIDEVA612\Import</Dossier_Import>
+    <Dossier_Export>C:\Users\Public\Documents\Synchro NuxiDev\NUXIDEVA612\Export</Dossier_Export>
+    <Liaisons>
+      <Liaison>
+        <Logiciel>C:\Program Files\EBP\Invoicing24.0FRFR40\EBP.Invoicing.Application.exe</Logiciel>
+        <Config>C:\Users\Dominique\Documents\DemoHouda.ebp</Config>
+        <Utilisateur>EBPSDKx</Utilisateur>
+        <MDP>EBPSDK</MDP>
+      </Liaison>
+      <Liaison>
+        <Logiciel/>
+        <Config/>
+        <Utilisateur/>
+        <MDP/>
+      </Liaison>
+      <Liaison>
+        <Logiciel/>
+        <Config/>
+        <Utilisateur/>
+        <MDP/>
+      </Liaison>
+      <Liaison>
+        <Logiciel/>
+        <Config/>
+        <Utilisateur/>
+        <MDP/>
+      </Liaison>
+    </Liaisons>
+    <Agenda>
+      <Type_Agenda>Google</Type_Agenda>
+      <Correspondances>
+        <Correspondance>
+          <ID_Salarie>CO00002</ID_Salarie>
+          <ID_Agenda>60mb9cl76i117qm2hkd6emaqio@group.calendar.google.com</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+        <Correspondance>
+          <ID_Salarie>-1</ID_Salarie>
+          <ID_Agenda>-1</ID_Agenda>
+        </Correspondance>
+      </Correspondances>
+      <Token>
+        <Valeur>PD94bWwgdmVyc2lvbj0iMS4wIj8+PERPQ1VNRU5UIHhtbG5zOlNPQVBfRU5DPSJodHRwOi8vc2NoZW1h
+cy54bWxzb2FwLm9yZy9zb2FwL2VuY29kaW5nLyIgeG1sbnM6eHNpID0gImh0dHA6Ly93d3cudzMub3Jn
+LzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIj48QXV0aFRva2VuIGlkPSJpZDAiPjxfX1NlcmlhbGlzYXRp
+b25fXz5BUUFBQUFFQUFBQVZBd0FBMndFQUFIc0tJQ0FpWVdOalpYTnpYM1J2YTJWdUlqb2dJbmxoTWpr
+dVlUQkJXR1ZQT0RCVGRHSTJhR3RsVlZwak5rODBiMkZYT1cxQmQzZFNWazQwV0RoWWRVTkthMDVUWmpZ
+eU5uZEliRWhxWTJ4aGRqUjNZVTVsTVU1TVJEQklORGxtUTJSRlpVTXdiR1o0UWpCNE4yNXJMVzAwYUZG
+RFgzSkxXV1ZyUWxsWFNGQlhPWEE1Ymt4elNtMUZhbmxYYVcxM1JEVXhaMk14YzNaRVNUVjJiVUp2V1ZG
+M1MydHdXV2xNUm5kWE9UQlJlbkZIUkZsdlZrTk9iWFpZY21GcGMwNXRhRk5CZUhkaFEyZFpTMEZUV1ZO
+QlVrbFRSbEZJUjFneVRXbGhkRmQ1WVdkTGRFcE1SMUU0Y2pkQ2FuSnZRbE4zTURFM05TSXNDaUFnSW1W
+NGNHbHlaWE5mYVc0aU9pQXpOVGs1TEFvZ0lDSnlaV1p5WlhOb1gzUnZhMlZ1SWpvZ0lqRXZMekF6VWxK
+Qk5rdzRiV1JWWkMxRFoxbEpRVkpCUVVkQlRWTk9kMFl0VERsSmNuZFdaR1JOTjNoYWJEaHFiRFJpZHpJ
+eWNXSlhVMnRyVEVvME5VVnNZbVp6VUhZM0xVSkVSR2xqZUcxRGRGUklUSFJXUjNkeE4xTlZjblJvZFUw
+MGNtUlpNSE1pTEFvZ0lDSnpZMjl3WlNJNklDSm9kSFJ3Y3pvdkwzZDNkeTVuYjI5bmJHVmhjR2x6TG1O
+dmJTOWhkWFJvTDJOaGJHVnVaR0Z5SWl3S0lDQWlkRzlyWlc1ZmRIbHdaU0k2SUNKQ1pXRnlaWElpQ24w
+RkFBQUFMZ0VBQVAvT2lQRlZBQUFBTmpjNE9EazNNemd6TURVM0xYSm1iM1J0YWpkc2NUUXlhR016TW1R
+MWJXd3pNalIyYjJGclpETm1ZelZvTG1Gd2NITXVaMjl2WjJ4bGRYTmxjbU52Ym5SbGJuUXVZMjl0QVA3
+dG1PSC96b2p4SlFBQUFHMXFXRWh2TkhSblprMTBYMUZQYzJwMGVIaG9RbVZhZFFEKzdaamgvODZJOFRZ
+QUFBQm9kSFJ3Y3pvdkwyRmpZMjkxYm5SekxtZHZiMmRzWlM1amIyMHZieTl2WVhWMGFESXZZWFYwYUFE
+KzdaamgvODZJOFRjQUFBQm9kSFJ3Y3pvdkwyRmpZMjkxYm5SekxtZHZiMmRzWlM1amIyMHZieTl2WVhW
+MGFESXZkRzlyWlc0QS91Mlk0Zi9PaVBFMUFBQUFhSFIwY0hNNkx5OTNkM2N1WjI5dloyeGxZWEJwY3k1
+amIyMHZZWFYwYUM5allXeGxibVJoY2dEKzdaamhBQUFBQUFBQUFBQUFBQUFBQUFBPTwvX19TZXJpYWxp
+c2F0aW9uX18+PEFjdHVhbGlzYXRpb24+MS8vMDNSUkE2TDhtZFVkLUNnWUlBUkFBR0FNU053Ri1MOUly
+d1ZkZE03eFpsOGpsNGJ3MjJxYldTa2tMSjQ1RWxiZnNQdjctQkREaWN4bUN0VEhMdFZHd3E3U1VydGh1
+TTRyZFkwczwvQWN0dWFsaXNhdGlvbj48RGF0ZUV4cGlyYXRpb24+MjAyNS0wMi0xMlQxNzo1MTo0OC43
+OTI8L0RhdGVFeHBpcmF0aW9uPjwvQXV0aFRva2VuPjwvRE9DVU1FTlQ+</Valeur>
+      </Token>
+    </Agenda>
+  </Liaisons_Externes>
+  <Planifications>
+    <FuseauHoraire>Europe/Paris</FuseauHoraire>
+    <FuseauHoraireValeur>+01:00</FuseauHoraireValeur>
+  </Planifications>
+  <Info>
+    <Exe>C:\Mes Projets\Synchro NuxiDev\Exe\ExÃ©cutable Windows 64 bits\Synchro NuxiDev.exe</Exe>
+    <Serial>4A2D-4597-BG33-8C7G-E5AG</Serial>
+    <NuxiAutomateInstall>1</NuxiAutomateInstall>
+    <NuxiAutomateLibelle>Version : 6.11.23.9</NuxiAutomateLibelle>
+    <DateMAJConfig>20250305093300664</DateMAJConfig>
+  </Info>
+  <DerSynchro>
+    <TypeDeSync>ComplÃ¨te</TypeDeSync>
+    <DateHeure>20250309080952542</DateHeure>
+    <Duree>00:04:11</Duree>
+    <NbEnreg>1838</NbEnreg>
+    <Vitesse>5927</Vitesse>
+    <Taille>3,721 Mo</Taille>
+  </DerSynchro>
+  <Data>
+    <CMB_STOCK_DEPOT>
+      <DEPOT>
+        <IDInterne>3b7fa0c3-1f64-449f-9277-cb8d8ccb9663</IDInterne>
+        <Code>3b7fa0c3-1f64-449f-9277-cb8d8ccb9663</Code>
+        <Libelle>Principal</Libelle>
+      </DEPOT>
+      <DEPOT>
+        <IDInterne>b9630c69-90a5-4fac-b4a2-6ca3f9750fde</IDInterne>
+        <Code>b9630c69-90a5-4fac-b4a2-6ca3f9750fde</Code>
+        <Libelle>Secondaire</Libelle>
+      </DEPOT>
+    </CMB_STOCK_DEPOT>
+    <CMB_SALARIES>
+      <SALARIES>
+        <Nom>CHENE</Nom>
+        <Prenom>Erwan</Prenom>
+        <IDInterne>CO00002</IDInterne>
+      </SALARIES>
+      <SALARIES>
+        <Nom>LUCAS</Nom>
+        <Prenom>Corinne</Prenom>
+        <IDInterne>CO00005</IDInterne>
+      </SALARIES>
+      <SALARIES>
+        <Nom>MOULIN</Nom>
+        <Prenom>Sylvie</Prenom>
+        <IDInterne>CO00001</IDInterne>
+      </SALARIES>
+      <SALARIES>
+        <Nom>SIMONIN</Nom>
+        <Prenom>Malvin</Prenom>
+        <IDInterne>CO00004</IDInterne>
+      </SALARIES>
+    </CMB_SALARIES>
+    <CMB_TECHNICIENS>
+      <TECHNICIENS>
+        <Nom>COLIN</Nom>
+        <Prenom>LÃ©a</Prenom>
+        <IDInterne>CO00006</IDInterne>
+      </TECHNICIENS>
+      <TECHNICIENS>
+        <Nom>DUPONT</Nom>
+        <Prenom>Pascal</Prenom>
+        <IDInterne>CO00008</IDInterne>
+      </TECHNICIENS>
+      <TECHNICIENS>
+        <Nom>DURANT</Nom>
+        <Prenom>Thierry</Prenom>
+        <IDInterne>CO00007</IDInterne>
+      </TECHNICIENS>
+      <TECHNICIENS>
+        <Nom>MARTIN</Nom>
+        <Prenom>Manon</Prenom>
+        <IDInterne>CO00003</IDInterne>
+      </TECHNICIENS>
+    </CMB_TECHNICIENS>
+    <CMB_FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>ALARME</IDFamille>
+        <LibelleFamille>ALARME et SÃ©curitÃ©</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>ANIM0001</IDFamille>
+        <LibelleFamille>ANIMATIONS</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>ANNI0001</IDFamille>
+        <LibelleFamille>ANNIVERSAIRES</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>AUDIO</IDFamille>
+        <LibelleFamille>AUDIO</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>BIKE</IDFamille>
+        <LibelleFamille>Bicyclette</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>CHCA0001</IDFamille>
+        <LibelleFamille>CHEQUES CADEAUX</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>CHAUFFAGE</IDFamille>
+        <LibelleFamille>Chauffage</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>CLIMATISAT</IDFamille>
+        <LibelleFamille>Climatisation</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>SOCI0002</IDFamille>
+        <LibelleFamille>FERMETURES ET PORTAILS AUTO</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>FIGU0001</IDFamille>
+        <LibelleFamille>FIGURINES ET ANIMAUX</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>FAR00006</IDFamille>
+        <LibelleFamille>Fournitures Imprimantes</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>GROSELEC</IDFamille>
+        <LibelleFamille>GROS ELECTROMENAGER</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>FAR000010</IDFamille>
+        <LibelleFamille>Imprimantes</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>FAR00010</IDFamille>
+        <LibelleFamille>Imprimantes</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>CONS0001</IDFamille>
+        <LibelleFamille>JEUX DE CONSTRUCTION</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>SOCI0001</IDFamille>
+        <LibelleFamille>JEUX DE SOCIETES</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>EDUC0001</IDFamille>
+        <LibelleFamille>JEUX EDUCATIFS</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>BOIS0001</IDFamille>
+        <LibelleFamille>JOUETS EN BOIS</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>LIVR0001</IDFamille>
+        <LibelleFamille>LIVRES</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>MAINTENANC</IDFamille>
+        <LibelleFamille>MAINTENANCE</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>MAQU0001</IDFamille>
+        <LibelleFamille>MAQUETTE ET MODELISME</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>MIXT0001</IDFamille>
+        <LibelleFamille>MIXTES</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>NETTOYAGE</IDFamille>
+        <LibelleFamille>Nettoyage</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>PELU0001</IDFamille>
+        <LibelleFamille>PELUCHES ET DOUDOUS</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>PETITELEC</IDFamille>
+        <LibelleFamille>PETIT ELECTROMENAGER</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>PRES0001</IDFamille>
+        <LibelleFamille>PRESTATAIRE DE SERVICE</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne>SFAR00001</IDInterne>
+        <Code>SFAR00001</Code>
+        <Libelle>Puzzle + 900 piÃ¨ces</Libelle>
+        <IDFamille>PUZZ0001</IDFamille>
+        <LibelleFamille>PUZZLES</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne>SFAR00002</IDInterne>
+        <Code>SFAR00002</Code>
+        <Libelle>Puzzle - 900 piÃ¨ces</Libelle>
+        <IDFamille>PUZZ0001</IDFamille>
+        <LibelleFamille>PUZZLES</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>SANITAIRE</IDFamille>
+        <LibelleFamille>Sanitaire</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>VISUEL</IDFamille>
+        <LibelleFamille>TÃ©lÃ©viseurs / Ecrans</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>BEBE0001</IDFamille>
+        <LibelleFamille>UNIVERS BEBES</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>FILL0001</IDFamille>
+        <LibelleFamille>UNIVERS FILLES</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>GARC0001</IDFamille>
+        <LibelleFamille>UNIVERS GARCONS</LibelleFamille>
+      </FAMILLEARTICLE>
+      <FAMILLEARTICLE>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>FA00006</IDFamille>
+        <LibelleFamille>fournitures Imprimantes</LibelleFamille>
+      </FAMILLEARTICLE>
+    </CMB_FAMILLEARTICLE>
+    <CMB_FAMILLECLIENT>
+      <FAMILLECLIENT>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>FCL00001</IDFamille>
+        <LibelleFamille>Autres</LibelleFamille>
+      </FAMILLECLIENT>
+      <FAMILLECLIENT>
+        <IDInterne>SFCL00002</IDInterne>
+        <Code>SFCL00002</Code>
+        <Libelle>Entreprises EtrangÃ¨res</Libelle>
+        <IDFamille>CE0001</IDFamille>
+        <LibelleFamille>ComitÃ©s d&amp;apos;entreprise</LibelleFamille>
+      </FAMILLECLIENT>
+      <FAMILLECLIENT>
+        <IDInterne>SFCL00001</IDInterne>
+        <Code>SFCL00001</Code>
+        <Libelle>Particuliers EtrangÃ¨rs</Libelle>
+        <IDFamille>PA0001</IDFamille>
+        <LibelleFamille>Particuliers</LibelleFamille>
+      </FAMILLECLIENT>
+    </CMB_FAMILLECLIENT>
+    <CMB_FAMILLEFOURNISSEUR>
+      <FAMILLEFOURNISSEUR>
+        <IDInterne/>
+        <Code/>
+        <Libelle/>
+        <IDFamille>GROSSI</IDFamille>
+        <LibelleFamille>Grossiste</LibelleFamille>
+      </FAMILLEFOURNISSEUR>
+    </CMB_FAMILLEFOURNISSEUR>
+  </Data>
+  <Donnees_A_Synchroniser>
+    <Donnee>
+      <Reference>ADRESSE-CLIENT</Reference>
+      <Complete>1</Complete>
+      <Libelle>Adresse Client</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>ADRESSE-COLLABORATEUR</Reference>
+      <Complete>1</Complete>
+      <Libelle>Adresse Collaborateur</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>ADRESSE-FOURNISSEUR</Reference>
+      <Complete>1</Complete>
+      <Libelle>Adresse Fournisseur</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>ADRESSE-DEPOT</Reference>
+      <Complete>1</Complete>
+      <Libelle>Adresse des dÃ©pÃ´ts</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>AFFAIRE</Reference>
+      <Complete>1</Complete>
+      <Libelle>Affaires</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>LIAISONS_AFFAIRES_INTERVENANTS</Reference>
+      <Complete>0</Complete>
+      <Libelle>Affaires Intervenants</Libelle>
+      <Histo>90</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>ARTICLE</Reference>
+      <Complete>1</Complete>
+      <Libelle>Articles</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>ARTICLE_GAMME</Reference>
+      <Complete>1</Complete>
+      <Libelle>Articles Gammes</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>ARTICLELIE</Reference>
+      <Complete>1</Complete>
+      <Libelle>Articles LiÃ©s</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>ARTICLE_SERIELOT</Reference>
+      <Complete>1</Complete>
+      <Libelle>Articles SÃ©rie/Lot/DLUO</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>ARTICLE_TEXTE</Reference>
+      <Complete>1</Complete>
+      <Libelle>Articles Textes</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>ARTICLEFOURNISSEUR</Reference>
+      <Complete>1</Complete>
+      <Libelle>Articles des Fournisseurs</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>CHANTIER</Reference>
+      <Complete>1</Complete>
+      <Libelle>Chantiers</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>LIAISONS_CHANTIERS_INTERVENANTS</Reference>
+      <Complete>0</Complete>
+      <Libelle>Chantiers Intervenants</Libelle>
+      <Histo>90</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>-TIERS-CLIENT</Reference>
+      <Complete>1</Complete>
+      <Libelle>Clients</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>COMPOSANTS-LIES</Reference>
+      <Complete>1</Complete>
+      <Libelle>Composants LiÃ©s</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>CONTACT-CLIENT</Reference>
+      <Complete>1</Complete>
+      <Libelle>Contacts Client</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>CONTACT-FOURNISSEUR</Reference>
+      <Complete>1</Complete>
+      <Libelle>Contacts Fournisseurs</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>CONTACT-PROSPECT</Reference>
+      <Complete>1</Complete>
+      <Libelle>Contacts Prospects</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTAVOIR</Reference>
+      <Complete>1</Complete>
+      <Libelle>Doc Avoir</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTLIGNE-AVOIR</Reference>
+      <Complete>1</Complete>
+      <Libelle>Doc Avoir Ligne</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTBL</Reference>
+      <Complete>1</Complete>
+      <Libelle>Doc Bon de livraison</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTLIGNE-BL</Reference>
+      <Complete>1</Complete>
+      <Libelle>Doc Bon de livraison Ligne</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTLIGNE-COMMANDE_ACHAT</Reference>
+      <Complete>1</Complete>
+      <Libelle>Doc Commande Achat Ligne</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTCOMMANDE_ACHAT</Reference>
+      <Complete>1</Complete>
+      <Libelle>Doc Commande Achat entÃªte</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTCOMMANDE</Reference>
+      <Complete>1</Complete>
+      <Libelle>Doc Commande Vente</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTLIGNE-COMMANDE</Reference>
+      <Complete>1</Complete>
+      <Libelle>Doc Commande Vente Ligne</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTDEMANDEPRIX_ACHAT</Reference>
+      <Complete>1</Complete>
+      <Libelle>Doc Demande de Prix</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTLIGNE-DEMANDEPRIX_ACHAT</Reference>
+      <Complete>1</Complete>
+      <Libelle>Doc Demande de Prix Ligne</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTDEVIS</Reference>
+      <Complete>1</Complete>
+      <Libelle>Doc Devis</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTLIGNE-DEVIS</Reference>
+      <Complete>1</Complete>
+      <Libelle>Doc Devis Ligne</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTLIGNE-FACTURE_ACHAT</Reference>
+      <Complete>1</Complete>
+      <Libelle>Doc Facture Achat Ligne</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTFACTURE_ACHAT</Reference>
+      <Complete>1</Complete>
+      <Libelle>Doc Facture Achat entÃªte</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTFACTURE</Reference>
+      <Complete>1</Complete>
+      <Libelle>Doc Facture Vente</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTLIGNE-FACTURE</Reference>
+      <Complete>1</Complete>
+      <Libelle>Doc Facture Vente Ligne</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>DOCUMENTLIGNE-FACTURE-SUP</Reference>
+      <Complete>0</Complete>
+      <Libelle>Doc Facture Vente Ligne +</Libelle>
+      <Histo>90</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>-TIERS-FOURNISSEUR</Reference>
+      <Complete>1</Complete>
+      <Libelle>Fournisseurs</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>GED_APPAREIL</Reference>
+      <Complete>0</Complete>
+      <Libelle>GED Appareil</Libelle>
+      <Histo>90</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>GED_ARTICLE</Reference>
+      <Complete>1</Complete>
+      <Libelle>GED Article</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>GED_CLIENT</Reference>
+      <Complete>1</Complete>
+      <Libelle>GED Client</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>GED_CONTRAT</Reference>
+      <Complete>1</Complete>
+      <Libelle>GED Contrat</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>GED_DOC_A</Reference>
+      <Complete>1</Complete>
+      <Libelle>GED Doc d&amp;apos;achat</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>GED_DOC_V</Reference>
+      <Complete>1</Complete>
+      <Libelle>GED Doc de vente</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>GED_FOURNISSEUR</Reference>
+      <Complete>1</Complete>
+      <Libelle>GED Fournisseur</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>GED_INTER</Reference>
+      <Complete>1</Complete>
+      <Libelle>GED Intervention</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>GPS</Reference>
+      <Complete>1</Complete>
+      <Libelle>GÃ©ocodage des adresses (2.500/Sync)</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>INTER_APPAREILS</Reference>
+      <Complete>1</Complete>
+      <Libelle>Intervention Appareils</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>INTER_BON</Reference>
+      <Complete>1</Complete>
+      <Libelle>Intervention Bon EntÃªte</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>INTER_BON_LIGNE_A</Reference>
+      <Complete>1</Complete>
+      <Libelle>Intervention Bon Lignes Appareils</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>INTER_BON_LIGNE_C</Reference>
+      <Complete>1</Complete>
+      <Libelle>Intervention Bon Lignes Consommations</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>INTER_BON_LIGNE_R</Reference>
+      <Complete>1</Complete>
+      <Libelle>Intervention Bon Lignes Ressources</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>INTER_BON_LIGNE_RH</Reference>
+      <Complete>1</Complete>
+      <Libelle>Intervention Bon Lignes Ressources Humaines</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>CONTRAT</Reference>
+      <Complete>1</Complete>
+      <Libelle>Intervention Contrat</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>CONTRATAPPAREIL</Reference>
+      <Complete>1</Complete>
+      <Libelle>Intervention Contrat Appareils</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>INCIDENT</Reference>
+      <Complete>1</Complete>
+      <Libelle>Intervention Suivi Incident</Libelle>
+      <Histo>9000</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>LISTETARIF</Reference>
+      <Complete>1</Complete>
+      <Libelle>Liste des tarifs</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>PHOTO_ARTICLE</Reference>
+      <Complete>1</Complete>
+      <Libelle>Photo des articles</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>PLANNING</Reference>
+      <Complete>1</Complete>
+      <Libelle>Planning</Libelle>
+      <Histo>30</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>-TIERS-PROSPECT</Reference>
+      <Complete>1</Complete>
+      <Libelle>Prospects</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>ARTICLESTOCK</Reference>
+      <Complete>1</Complete>
+      <Libelle>Stock par dÃ©pot</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>SYNCGOOGLEAGENDA</Reference>
+      <Complete>1</Complete>
+      <Libelle>Sync Google Agenda</Libelle>
+      <Histo>30</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>TARIFS-GRILLE-FOUR</Reference>
+      <Complete>1</Complete>
+      <Libelle>Tarifs fournisseurs grille</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+    <Donnee>
+      <Reference>TARIFS</Reference>
+      <Complete>1</Complete>
+      <Libelle>Tarifs particuliers</Libelle>
+      <Histo>0</Histo>
+    </Donnee>
+  </Donnees_A_Synchroniser>
+  <Exclusions>
+    <Exclusion>
+      <Type>ItemFamily</Type>
+      <Valeurs>
+        <Valeur>
+          <Code>ANIM0001|</Code>
+          <IDInterne>ANIM0001|</IDInterne>
+          <Libelle>ANIMATIONS</Libelle>
+        </Valeur>
+        <Valeur>
+          <Code>CHAUFFAGE|</Code>
+          <IDInterne>CHAUFFAGE|</IDInterne>
+          <Libelle>Chauffage</Libelle>
+        </Valeur>
+        <Valeur>
+          <Code>CLIMATISAT|</Code>
+          <IDInterne>CLIMATISAT|</IDInterne>
+          <Libelle>Climatisation</Libelle>
+        </Valeur>
+        <Valeur>
+          <Code>SOCI0002|</Code>
+          <IDInterne>SOCI0002|</IDInterne>
+          <Libelle>FERMETURES ET PORTAILS AUTO</Libelle>
+        </Valeur>
+        <Valeur>
+          <Code>PUZZ0001|SFAR00002</Code>
+          <IDInterne>PUZZ0001|SFAR00002</IDInterne>
+          <Libelle>PUZZLES	Puzzle - 900 piÃ¨ces</Libelle>
+        </Valeur>
+      </Valeurs>
+    </Exclusion>
+    <Exclusion>
+      <Type>CustomerFamily</Type>
+      <Valeurs>
+        <Valeur>
+          <Code>CE0001|SFCL00002</Code>
+          <IDInterne>CE0001|SFCL00002</IDInterne>
+          <Libelle>ComitÃ©s d&amp;apos;entreprise	Entreprises EtrangÃ¨res</Libelle>
+        </Valeur>
+      </Valeurs>
+    </Exclusion>
+    <Exclusion>
+      <Type>SupplierFamily</Type>
+      <Valeurs>
+        <Valeur>
+          <Code>GROSSI|</Code>
+          <IDInterne>GROSSI|</IDInterne>
+          <Libelle>Grossiste</Libelle>
+        </Valeur>
+      </Valeurs>
+    </Exclusion>
+    <Exclusion>
+      <Type>NuxiSavOnLine</Type>
+    </Exclusion>
+  </Exclusions>
+  <Terminaux>
+    <Terminal>
+      <Nom>pixel 8</Nom>
+      <ID_Tablette>c319c078521492a7</ID_Tablette>
+      <ID_Smartphone>966536eff3a96c11</ID_Smartphone>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne>CO00006</IDInterne>
+            <Code>CO00006</Code>
+            <Libelle>COLIN LÃ©a</Libelle>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne>3b7fa0c3-1f64-449f-9277-cb8d8ccb9663</IDInterne>
+            <Code>3b7fa0c3-1f64-449f-9277-cb8d8ccb9663</Code>
+            <Libelle>Principal</Libelle>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne>CO00002</IDInterne>
+            <Code>CO00002</Code>
+            <Libelle>CHENE Erwan</Libelle>
+          </Commercial>
+          <Commercial>
+            <IDInterne>CO00001</IDInterne>
+            <Code>CO00001</Code>
+            <Libelle>MOULIN Sylvie</Libelle>
+          </Commercial>
+          <Commercial>
+            <IDInterne>CO00004</IDInterne>
+            <Code>CO00004</Code>
+            <Libelle>SIMONIN Malvin</Libelle>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID>1</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Clients / Prospects</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>2</ID>
+          <Autorise>-1</Autorise>
+          <Libelle>Clients / Prospects (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>3</ID>
+          <Autorise>0</Autorise>
+          <Libelle>Fournisseurs</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>4</ID>
+          <Autorise>-1</Autorise>
+          <Libelle>Fournisseurs (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>5</ID>
+          <Autorise>-1</Autorise>
+          <Libelle>Contacts</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>6</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Contacts (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>7</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Articles</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>8</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Articles (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>9</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Inventaire</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>10</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Inventaire (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>11</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons d&amp;apos;entrÃ©e</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>12</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons d&amp;apos;entrÃ©e (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>13</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons de sortie</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>14</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons de sortie (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>15</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Devis Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>16</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Devis Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>17</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>18</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>19</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>20</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>53</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Avoir Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>54</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Avoir Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>21</ID>
+          <Autorise>1</Autorise>
+          <Libelle>BL Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>22</ID>
+          <Autorise>1</Autorise>
+          <Libelle>BL Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>23</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>24</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>25</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>26</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>41</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bon RÃ©ception Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>42</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bon RÃ©ception Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>72</ID>
+          <Autorise>0</Autorise>
+          <Libelle>Demande de Prix</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>73</ID>
+          <Autorise>0</Autorise>
+          <Libelle>Demande de Prix (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>66</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Appareils client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>67</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Appareils client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>31</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Contrats</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>55</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Incidents</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>56</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Incidents (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>33</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Intervention</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>34</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Intervention (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>57</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Pointage des heures</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>58</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques sur CA</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>59</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques sur Marge</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>60</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Quantitatives</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>61</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Clients</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>62</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Fournisseurs</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>63</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Articles</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>64</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Ventes</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>65</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Interventions</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>36</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu des prix de revient</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>37</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu des prix d&amp;apos;achat</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>38</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu du stock</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>39</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Autoriser la saisie de remises</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>40</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Autoriser la modification des prix</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>70</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Valorisation des doc : Visible/MasquÃ©</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>71</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Prix des articles : Visible/MasquÃ©</Libelle>
+        </Autorisation>
+        <Autorisation_Longue>1|-1|0|-1|-1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|0|0|0|0|1|0|1|1|0|1|1|1|1|1|1|1|0|0|0|0|0|0|0|0|0|0|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom>Windev Windows</Nom>
+      <ID_Tablette>563452935</ID_Tablette>
+      <ID_Smartphone>123</ID_Smartphone>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID>1</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Clients / Prospects</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>2</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Clients / Prospects (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>3</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Fournisseurs</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>4</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Fournisseurs (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>5</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Contacts</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>6</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Contacts (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>7</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Articles</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>8</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Articles (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>9</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Inventaire</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>10</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Inventaire (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>11</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons d&amp;apos;entrÃ©e</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>12</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons d&amp;apos;entrÃ©e (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>13</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons de sortie</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>14</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons de sortie (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>15</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Devis Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>16</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Devis Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>17</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>18</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>19</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>20</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>53</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Avoir Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>54</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Avoir Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>21</ID>
+          <Autorise>1</Autorise>
+          <Libelle>BL Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>22</ID>
+          <Autorise>1</Autorise>
+          <Libelle>BL Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>23</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>24</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>25</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>26</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>41</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bon RÃ©ception Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>42</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bon RÃ©ception Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>72</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Demande de Prix</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>73</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Demande de Prix (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>66</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Appareils client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>67</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Appareils client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>31</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Contrats</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>55</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Incidents</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>56</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Incidents (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>33</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Intervention</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>34</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Intervention (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>57</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Pointage des heures</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>58</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques sur CA</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>59</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques sur Marge</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>60</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Quantitatives</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>61</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Clients</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>62</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Fournisseurs</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>63</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Articles</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>64</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Ventes</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>65</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Interventions</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>36</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu des prix de revient</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>37</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu des prix d&amp;apos;achat</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>38</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu du stock</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>39</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Autoriser la saisie de remises</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>40</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Autoriser la modification des prix</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>70</ID>
+          <Autorise>0</Autorise>
+          <Libelle>Valorisation des doc : Visible/MasquÃ©</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>71</ID>
+          <Autorise>0</Autorise>
+          <Libelle>Prix des articles : Visible/MasquÃ©</Libelle>
+        </Autorisation>
+        <Autorisation_Longue>1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|0|0|0|0|1|0|1|1|0|1|1|1|1|1|1|1|0|0|0|0|0|0|0|0|0|0|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom>Fatima</Nom>
+      <ID_Tablette>605843355</ID_Tablette>
+      <ID_Smartphone>aa95fd571901063f</ID_Smartphone>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID>1</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Clients / Prospects</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>2</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Clients / Prospects (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>3</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Fournisseurs</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>4</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Fournisseurs (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>5</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Contacts</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>6</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Contacts (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>7</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Articles</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>8</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Articles (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>9</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Inventaire</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>10</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Inventaire (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>11</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons d&amp;apos;entrÃ©e</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>12</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons d&amp;apos;entrÃ©e (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>13</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons de sortie</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>14</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons de sortie (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>15</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Devis Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>16</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Devis Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>17</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>18</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>19</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>20</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>53</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Avoir Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>54</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Avoir Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>21</ID>
+          <Autorise>1</Autorise>
+          <Libelle>BL Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>22</ID>
+          <Autorise>1</Autorise>
+          <Libelle>BL Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>23</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>24</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>25</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>26</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>41</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bon RÃ©ception Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>42</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bon RÃ©ception Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>66</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Appareils client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>67</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Appareils client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>31</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Contrats</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>55</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Incidents</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>56</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Incidents (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>33</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Intervention</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>34</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Intervention (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>57</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Pointage des heures</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>58</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques sur CA</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>59</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques sur Marge</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>60</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Quantitatives</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>61</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Clients</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>62</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Fournisseurs</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>63</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Articles</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>64</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Ventes</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>65</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Interventions</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>36</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu des prix de revient</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>37</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu des prix d&amp;apos;achat</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>38</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu du stock</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>39</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Autoriser la saisie de remises</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>40</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Autoriser la modification des prix</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>70</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Valorisation des doc : Visibles/MasquÃ©s</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>71</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Prix des articles : Visible/MasquÃ©</Libelle>
+        </Autorisation>
+        <Autorisation_Longue>1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|0|0|0|0|1|0|1|1|0|1|1|1|1|1|1|1|0|0|0|0|0|0|0|0|0|0|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom>ipad</Nom>
+      <ID_Tablette>8677fb326ce14f96</ID_Tablette>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID>1</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Clients / Prospects</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>2</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Clients / Prospects (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>3</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Fournisseurs</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>4</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Fournisseurs (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>5</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Contacts</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>6</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Contacts (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>7</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Articles</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>8</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Articles (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>9</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Inventaire</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>10</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Inventaire (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>11</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons d&amp;apos;entrÃ©e</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>12</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons d&amp;apos;entrÃ©e (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>13</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons de sortie</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>14</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons de sortie (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>15</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Devis Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>16</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Devis Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>17</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>18</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>19</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>20</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>53</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Avoir Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>54</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Avoir Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>21</ID>
+          <Autorise>1</Autorise>
+          <Libelle>BL Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>22</ID>
+          <Autorise>1</Autorise>
+          <Libelle>BL Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>23</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>24</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>25</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>26</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>41</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bon RÃ©ception Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>42</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bon RÃ©ception Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>66</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Appareils client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>67</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Appareils client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>31</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Contrats</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>55</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Incidents</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>56</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Incidents (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>33</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Intervention</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>34</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Intervention (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>57</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Pointage des heures</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>58</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques sur CA</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>59</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques sur Marge</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>60</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Quantitatives</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>61</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Clients</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>62</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Fournisseurs</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>63</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Articles</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>64</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Ventes</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>65</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Interventions</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>36</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu des prix de revient</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>37</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu des prix d&amp;apos;achat</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>38</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu du stock</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>39</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Autoriser la saisie de remises</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>40</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Autoriser la modification des prix</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>70</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Valorisation des doc : Visibles/MasquÃ©s</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>71</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Prix des articles : Visible/MasquÃ©</Libelle>
+        </Autorisation>
+        <Autorisation_Longue>1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|0|0|0|0|1|0|1|1|0|1|1|1|1|1|1|1|0|0|0|0|0|0|0|0|0|0|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom>iPhone 15</Nom>
+      <ID_Tablette/>
+      <ID_Smartphone>12feea71e94b480d</ID_Smartphone>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID>1</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Clients / Prospects</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>2</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Clients / Prospects (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>3</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Fournisseurs</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>4</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Fournisseurs (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>5</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Contacts</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>6</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Contacts (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>7</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Articles</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>8</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Articles (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>9</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Inventaire</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>10</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Inventaire (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>11</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons d&amp;apos;entrÃ©e</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>12</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons d&amp;apos;entrÃ©e (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>13</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons de sortie</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>14</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons de sortie (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>15</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Devis Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>16</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Devis Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>17</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>18</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>19</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>20</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>53</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Avoir Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>54</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Avoir Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>21</ID>
+          <Autorise>1</Autorise>
+          <Libelle>BL Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>22</ID>
+          <Autorise>1</Autorise>
+          <Libelle>BL Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>23</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>24</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>25</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>26</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>41</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bon RÃ©ception Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>42</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bon RÃ©ception Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>66</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Appareils client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>67</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Appareils client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>31</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Contrats</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>55</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Incidents</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>56</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Incidents (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>33</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Intervention</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>34</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Intervention (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>57</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Pointage des heures</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>58</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques sur CA</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>59</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques sur Marge</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>60</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Quantitatives</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>61</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Clients</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>62</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Fournisseurs</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>63</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Articles</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>64</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Ventes</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>65</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Interventions</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>36</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu des prix de revient</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>37</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu des prix d&amp;apos;achat</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>38</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu du stock</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>39</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Autoriser la saisie de remises</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>40</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Autoriser la modification des prix</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>70</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Valorisation des doc : Visible/MasquÃ©</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>71</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Prix des articles : Visible/MasquÃ©</Libelle>
+        </Autorisation>
+        <Autorisation_Longue>1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|0|0|0|0|1|0|1|1|0|1|1|1|1|1|1|1|0|0|0|0|0|0|0|0|0|0|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom>Zebra</Nom>
+      <ID_Tablette/>
+      <ID_Smartphone>db200fa70076b480</ID_Smartphone>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID>1</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Clients / Prospects</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>2</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Clients / Prospects (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>3</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Fournisseurs</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>4</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Fournisseurs (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>5</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Contacts</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>6</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Contacts (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>7</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Articles</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>8</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Articles (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>9</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Inventaire</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>10</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Inventaire (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>11</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons d&amp;apos;entrÃ©e</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>12</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons d&amp;apos;entrÃ©e (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>13</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons de sortie</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>14</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons de sortie (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>15</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Devis Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>16</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Devis Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>17</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>18</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>19</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>20</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>53</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Avoir Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>54</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Avoir Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>21</ID>
+          <Autorise>1</Autorise>
+          <Libelle>BL Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>22</ID>
+          <Autorise>1</Autorise>
+          <Libelle>BL Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>23</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>24</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>25</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>26</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>41</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bon RÃ©ception Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>42</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bon RÃ©ception Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>66</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Appareils client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>67</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Appareils client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>31</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Contrats</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>55</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Incidents</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>56</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Incidents (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>33</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Intervention</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>34</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Intervention (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>57</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Pointage des heures</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>58</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques sur CA</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>59</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques sur Marge</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>60</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Quantitatives</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>61</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Clients</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>62</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Fournisseurs</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>63</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Articles</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>64</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Ventes</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>65</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Interventions</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>36</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu des prix de revient</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>37</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu des prix d&amp;apos;achat</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>38</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu du stock</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>39</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Autoriser la saisie de remises</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>40</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Autoriser la modification des prix</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>70</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Valorisation des doc : Visible/MasquÃ©</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>71</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Prix des articles : Visible/MasquÃ©</Libelle>
+        </Autorisation>
+        <Autorisation_Longue>1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|0|0|0|0|1|0|1|1|0|1|1|1|1|1|1|1|0|0|0|0|0|0|0|0|0|0|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom>Tab S8</Nom>
+      <ID_Tablette>2a3555729bff20ba</ID_Tablette>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID>1</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Clients / Prospects</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>2</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Clients / Prospects (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>3</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Fournisseurs</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>4</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Fournisseurs (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>5</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Contacts</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>6</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Contacts (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>7</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Articles</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>8</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Articles (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>9</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Inventaire</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>10</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Inventaire (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>11</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons d&amp;apos;entrÃ©e</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>12</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons d&amp;apos;entrÃ©e (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>13</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons de sortie</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>14</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons de sortie (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>15</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Devis Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>16</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Devis Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>17</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>18</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>19</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>20</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>53</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Avoir Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>54</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Avoir Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>21</ID>
+          <Autorise>1</Autorise>
+          <Libelle>BL Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>22</ID>
+          <Autorise>1</Autorise>
+          <Libelle>BL Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>23</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>24</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>25</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>26</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>41</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bon RÃ©ception Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>42</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bon RÃ©ception Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>66</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Appareils client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>67</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Appareils client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>31</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Contrats</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>55</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Incidents</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>56</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Incidents (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>33</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Intervention</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>34</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Intervention (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>57</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Pointage des heures</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>58</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques sur CA</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>59</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques sur Marge</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>60</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Quantitatives</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>61</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Clients</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>62</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Fournisseurs</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>63</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Articles</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>64</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Ventes</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>65</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Interventions</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>36</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu des prix de revient</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>37</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu des prix d&amp;apos;achat</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>38</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu du stock</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>39</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Autoriser la saisie de remises</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>40</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Autoriser la modification des prix</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>70</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Valorisation des doc : Visible/MasquÃ©</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>71</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Prix des articles : Visible/MasquÃ©</Libelle>
+        </Autorisation>
+        <Autorisation_Longue>1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|0|0|0|0|1|0|1|1|0|1|1|1|1|1|1|1|0|0|0|0|0|0|0|0|0|0|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom>Simul Mac</Nom>
+      <ID_Tablette/>
+      <ID_Smartphone>1fe4951e9d264e19</ID_Smartphone>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID>1</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Clients / Prospects</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>2</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Clients / Prospects (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>3</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Fournisseurs</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>4</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Fournisseurs (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>5</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Contacts</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>6</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Contacts (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>7</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Articles</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>8</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Articles (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>9</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Inventaire</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>10</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Inventaire (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>11</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons d&amp;apos;entrÃ©e</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>12</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons d&amp;apos;entrÃ©e (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>13</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons de sortie</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>14</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bons de sortie (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>15</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Devis Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>16</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Devis Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>17</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>18</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>19</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>20</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>53</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Avoir Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>54</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Avoir Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>21</ID>
+          <Autorise>1</Autorise>
+          <Libelle>BL Client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>22</ID>
+          <Autorise>1</Autorise>
+          <Libelle>BL Client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>23</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>24</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Commande Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>25</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>26</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Facture Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>41</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bon RÃ©ception Fournisseur</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>42</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Bon RÃ©ception Fournisseur (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>66</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Appareils client</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>67</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Appareils client (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>31</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Contrats</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>55</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Incidents</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>56</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Incidents (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>33</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Intervention</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>34</ID>
+          <Autorise>1</Autorise>
+          <Libelle>SAV Intervention (saisie)</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>57</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Pointage des heures</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>58</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques sur CA</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>59</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques sur Marge</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>60</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Quantitatives</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>61</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Clients</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>62</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Fournisseurs</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>63</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Articles</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>64</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Ventes</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>65</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Statistiques Interventions</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>36</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu des prix de revient</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>37</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu des prix d&amp;apos;achat</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>38</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Visu du stock</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>39</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Autoriser la saisie de remises</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>40</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Autoriser la modification des prix</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>70</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Valorisation des doc : Visible/MasquÃ©</Libelle>
+        </Autorisation>
+        <Autorisation>
+          <ID>71</ID>
+          <Autorise>1</Autorise>
+          <Libelle>Prix des articles : Visible/MasquÃ©</Libelle>
+        </Autorisation>
+        <Autorisation_Longue>1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|0|0|0|0|1|0|1|1|0|1|1|1|1|1|1|1|0|0|0|0|0|0|0|0|0|0|1|1|1|1|1|1|1|1|1|1|1|1|1|1|1|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+    <Terminal>
+      <Nom/>
+      <ID_Tablette/>
+      <ID_Smartphone/>
+      <Filtres>
+        <Techniciens>
+          <Technicien>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Technicien>
+        </Techniciens>
+        <Depots>
+          <Depot>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Depot>
+        </Depots>
+        <Commerciaux>
+          <Commercial>
+            <IDInterne/>
+            <Code/>
+            <Libelle/>
+          </Commercial>
+        </Commerciaux>
+      </Filtres>
+      <Autorisations>
+        <Autorisation>
+          <ID/>
+          <Autorise/>
+          <Libelle/>
+        </Autorisation>
+        <Autorisation_Longue>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0</Autorisation_Longue>
+      </Autorisations>
+    </Terminal>
+  </Terminaux>
+</Connexion>

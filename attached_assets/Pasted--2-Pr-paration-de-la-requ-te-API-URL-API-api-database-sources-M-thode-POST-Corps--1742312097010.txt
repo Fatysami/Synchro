@@ -1,0 +1,57 @@
+
+🔄 [2] Préparation de la requête API
+- URL API: /api/database/sources
+- Méthode: POST
+- Corps: 
+Object {sources: Array(4)}
+🔄 [API] POST /api/database/sources début
+🔍 [Render] Sources affichées: 4
+[🔍 Block 0] Rendering with source: 
+Object {Provider: "SQLOLEDB", Serveur: "localhostebp", Nom_BDD: "DemoHouda_0895452f-b7c1-4c00-a316-c6a6d0ea4bf4", Lecture_Seule: "0", Utilisateur: "sauuuzzgfd", …}
+[🔍 Block 1] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+[🔍 Block 2] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+[🔍 Block 3] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+🔄 [API] POST /api/database/sources réponse: 
+Object {status: 400, ok: false}
+❌ [API] HTTP 400: {"error":"Configuration XML non trouvée"}
+at t.value (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+❌ [Sauvegarde] Erreur mutation: 
+Error {}
+message: "400: {"error":"Configuration XML non trouvée"}"
+stack: "Error: 400: {"error":"Configuration XML non trouvée"}↵ at throwIfResNotOk (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/lib/queryClient.ts:14:11)↵ at async apiRequest (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/lib/queryClient.ts:29:3)↵ at async Object.mutationFn (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/src/pages/database-page.tsx:273:24)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
+
+at t.value (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://20c39032-ef7b-4c6b-bcd0-4cd2c1043b59-00-1gjpaqheizxtg.riker.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+ProtectedRoute - Auth state: 
+Object {user: {…}, isLoading: false}
+🔍 [Render] Sources affichées: 4
+[🔍 Block 0] Rendering with source: 
+Object {Provider: "SQLOLEDB", Serveur: "localhostebp", Nom_BDD: "DemoHouda_0895452f-b7c1-4c00-a316-c6a6d0ea4bf4", Lecture_Seule: "0", Utilisateur: "sauuuzzgfd", …}
+[🔍 Block 1] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+[🔍 Block 2] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+[🔍 Block 3] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+ProtectedRoute - Auth state: 
+Object {user: {…}, isLoading: false}
+🔍 [Render] Sources affichées: 4
+[🔍 Block 0] Rendering with source: 
+Object {Provider: "SQLOLEDB", Serveur: "localhostebp", Nom_BDD: "DemoHouda_0895452f-b7c1-4c00-a316-c6a6d0ea4bf4", Lecture_Seule: "0", Utilisateur: "sauuuzzgfd", …}
+[🔍 Block 1] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+[🔍 Block 2] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}
+[🔍 Block 3] Rendering with source: 
+Object {Provider: "", Serveur: "", Nom_BDD: "", Lecture_Seule: "0", Utilisateur: "", …}

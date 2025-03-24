@@ -1,0 +1,107 @@
+Tout semble correct au premier abord dans ton code, mais voici plusieurs pistes à vérifier :
+
+---
+
+## ? **1. Vérifier les logs pour comprendre le problème**
+Ajoute des **logs détaillés** pour voir où ça coince.
+
+Dans `decrypterXML()` :
+
+```typescript
+console.log("=== DEBUG DÉCRYPTAGE ===");
+console.log("1. Taille du buffer crypté:", bufCrypte.length, "octets");
+console.log("2. Premiers octets du buffer (hex):", bufCrypte.slice(0, 16).toString("hex"));
+```
+
+Si le fichier `.dat` a une taille **inférieure à 16 octets**, alors ce n'est **pas un fichier chiffré valide**.
+
+---
+
+## ?? **2. Vérifier si le fichier contient bien l'IV et les données chiffrées**
+Les 16 premiers octets **doivent être l'IV**, et le reste **les données chiffrées**. Vérifie si ces valeurs sont correctes :
+
+Ajoute ce log **juste avant de décrypter** :
+
+```typescript
+console.log("IV (16 octets, hex):", iv.toString("hex"));
+console.log("Données chiffrées (hex, 20 premiers octets):", encryptedContent.slice(0, 20).toString("hex"));
+```
+
+Si l'IV est **tout en zéros (`000000...`)** ou une valeur qui semble incorrecte, c'est que **le découpage est faux**.
+
+---
+
+## ?? **3. Vérifier la bonne gestion des erreurs lors du déchiffrement**
+Si le déchiffrement échoue, il peut renvoyer une erreur du type :
+```
+Error: Unsupported state or unable to authenticate data
+```
+Cela peut signifier :
+- Mauvaise clé de déchiffrement
+- Mauvais IV
+- Mauvaise taille des données
+
+Ajoute un **try-catch détaillé** :
+
+```typescript
+try {
+    const decipher = createDecipheriv("aes-128-cbc", bufCle, iv);
+    const decrypted = Buffer.concat([decipher.update(encryptedContent), decipher.final()]);
+    console.log("Déchiffrement réussi, taille:", decrypted.length);
+} catch (error) {
+    console.error("Erreur lors du déchiffrement AES:", error.message);
+}
+```
+
+Si le problème vient de `decipher.final()`, il y a un **mauvais padding**.
+
+---
+
+## ?? **4. Vérifier le padding PKCS7**
+WinDev peut utiliser **PKCS7 padding**. Node.js utilise **automatiquement** PKCS7 par défaut, mais parfois il faut l’enlever manuellement.
+
+Essaie **d'enlever manuellement le padding** en fin de décryptage :
+
+```typescript
+// Suppression du padding PKCS7 si nécessaire
+const padLength = decrypted[decrypted.length - 1];
+if (padLength > 0 && padLength <= 16) {
+    console.log("Padding détecté:", padLength);
+    decrypted = decrypted.slice(0, -padLength);
+}
+```
+
+---
+
+## ?? **5. Vérifier le texte final**
+Si le texte déchiffré ne commence pas par `<?xml`, c'est qu'il y a un problème.
+
+Ajoute un log **juste après le déchiffrement** :
+
+```typescript
+console.log("Texte décrypté (premiers 100 caractères):", decrypted.toString("utf-8").slice(0, 100));
+```
+
+Si le texte contient des **caractères illisibles** (`ÿûþ` ou `¦¦¦`), alors :
+- Soit c'est **encore chiffré**
+- Soit c'est **compressé (zlib, gzip)**
+- Soit **l'encodage est mauvais**
+
+Dans ce cas, teste :
+
+```typescript
+console.log("Test XML valide:", decrypted.toString("utf-8").trim().startsWith("<?xml"));
+```
+
+---
+
+### ?? **Récapitulatif des vérifications à faire :**
+1. **Afficher la taille des données chiffrées**
+2. **Afficher l'IV extrait**
+3. **Vérifier si le découpage est bon (`IV` et `données chiffrées`)**
+4. **Traiter les erreurs de chiffrement**
+5. **Vérifier le padding PKCS7**
+6. **Vérifier si le texte déchiffré commence bien par `<?xml`**
+7. **Vérifier si le fichier est compressé (si le XML n'est pas lisible)**
+
+---

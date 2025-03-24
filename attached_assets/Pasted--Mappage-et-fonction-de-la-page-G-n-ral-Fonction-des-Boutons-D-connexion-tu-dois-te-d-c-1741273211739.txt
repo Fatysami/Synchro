@@ -1,0 +1,30 @@
+**Mappage et fonction de la page Général** 
+
+**Fonction des Boutons** 
+
+Déconnexion : tu dois te déconnecter de l’utilisateur et revenir à la page d’authentification  
+Teamviewer :  ouvrir [https://get.teamviewer.com/9x86qyq](https://get.teamviewer.com/9x86qyq)  
+Espace client : ouvrir [https://nuxilog.fr/customer/login](https://nuxilog.fr/customer/login)  
+sav.nuxilog.fr : ouvrir [https://sav.nuxilog.fr/](https://sav.nuxilog.fr/)  
+[www.nuxilog.fr](http://www.nuxilog.fr) :  ouvrir [https://nuxilog.fr/](https://nuxilog.fr/)
+
+**Mappage des Champs / Valeurs :**
+
+**Important la rubrique licences2.ConfigConnecteur contient un XML que nous nommerons “gConfigXML” afin de simplifier la compréhension du mappage**
+
+* ID de synchronisation: BDD licences2.IDSynchro  
+* Logiciel à synchroniser: Extraire la deuxième valeur séparé par point virgule de BDD licences2.Tablettes (exemple de valeur “1;EBP GesCom Open Line;EBPGesComOL|2;EBP Gestion Open Line;GesCom”)  
+* Licence NuxiDev Premium: BDD licences2.Premium si \= 1 alors Oui sinon afficher Non  
+* Version du connecteur: afficher NC  
+* Date de configuration: NC  
+* Date de dernière synchro: gConfigXML.Connexion.DerSynchro.DateHeure  
+* Type dernière synchro: gConfigXML.Connexion.DerSynchro.TypeDeSync  
+* Durée totale dernière synchronisation: gConfigXML.Connexion.DerSynchro.Duree  
+* Nombre d'enregistrements: gConfigXML.Connexion.DerSynchro.NbEnreg  
+* Vitesse de synchro BDD Lecture/Ecriture: gConfigXML.Connexion.DerSynchro.Vitesse  
+* Volume de données: gConfigXML.Connexion.DerSynchro.Taille  
+* API key Google restants: NC  
+* Nombre de terminaux autorisés: Extraire la première valeur spéparé par des points virgule de BDD licences2.Options (exemple de valeur “25;NUXIDEVA612;A”)   
+* Nombre de terminaux déclarés: compter toutes les occurences de gConfigXML.Connexion.Terminaux.Terminal qui ont gConfigXML.Connexion.Terminaux.Terminal\[i\].ID\_Smartphone \<\> “” ou gConfigXML.Connexion.Terminaux.Terminal\[i\].ID\_Tablette \<\> “”  
+* Nombre de planifications: NC
+

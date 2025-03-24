@@ -1,0 +1,141 @@
+# Cahier des Charges - Application Web de Configuration
+
+## 1. Introduction
+Cette application web permet l'affichage et la modification des paramètres d'une licence stockée dans une base de données MySQL. Elle comporte deux pages :
+1. **Page de connexion** : Identification de l'utilisateur.
+2. **Page de configuration** : Affichage et modification des paramètres de configuration extraits de la base MySQL et d'un fichier XML.
+
+L’application sera générée automatiquement via **Replit AI**.
+
+Des captures d'écran sont fournies pour assurer une reproduction fidèle de l'interface utilisateur.
+
+---
+
+## 2. Technologies
+- **Front-end** : HTML, CSS, JavaScript (utilisation de Bootstrap ou équivalent).
+- **Back-end** : PHP pour l’API d’authentification et de gestion des paramètres.
+- **Base de données** : MySQL
+- **Échange de données** : JSON (pour la communication entre l’API et le front-end).
+
+---
+
+## 3. Fonctionnalités
+
+### 3.1 Page de connexion
+- Saisie de l’identifiant et du mot de passe.
+- Vérification des identifiants via une API PHP.
+- Si les identifiants sont valides, récupération de l’enregistrement de configuration associé.
+
+### 3.2 Page de configuration
+- Menu latéral permettant de naviguer entre différentes sections de configuration.
+- Affichage des paramètres extraits de la base de données et du XML.
+- Possibilité de modifier ces paramètres.
+- Bouton de sauvegarde qui envoie les modifications à l’API PHP.
+
+---
+
+## 4. Structure de la Base de Données
+
+### 4.1 Table `Licences2`
+| Champ               | Type            | Description                          |
+|---------------------|----------------|--------------------------------------|
+| ID                 | int (PK)        | Identifiant unique de la licence    |
+| IDClient           | int             | Référence du client                 |
+| IdentifiantPC      | varchar(100)    | Identifiant du poste                |
+| Options           | varchar(50)     | Options activées                    |
+| Serial            | varchar(50)     | Clé de licence                       |
+| Suspendu          | tinyint(1)      | Licence suspendue (1=oui, 0=non)    |
+| NomSoft           | varchar(50)     | Nom du logiciel                     |
+| NomPoste          | varchar(50)     | Nom du poste                        |
+| NomSession        | varchar(50)     | Nom de la session Windows           |
+| Date_DerUtilisation | datetime       | Dernière utilisation                 |
+| Version          | varchar(20)     | Version du logiciel                 |
+| Data1, Data2      | varchar(100)    | Informations diverses               |
+| FTP1_Hote, FTP2_Hote | varchar(100) | Informations FTP                     |
+| FTP1_Identifiant, FTP2_Identifiant | varchar(100) | Identifiants FTP       |
+| FTP1_Mdp, FTP2_Mdp | varchar(100) | Mots de passe FTP                    |
+| Data_Actif        | int             | Indicateur d’activité des données    |
+| FTP_Actif         | int             | Indicateur d’activité des FTP        |
+| URL1, URL2        | varchar(150)    | URLs associées à la licence         |
+| IDSynchro         | varchar(50)     | Identifiant de synchronisation      |
+| NbRun             | int             | Nombre d’exécutions                  |
+| Date_LimiteUtil   | date            | Date limite d’utilisation           |
+| Terminaux         | longtext        | Liste des terminaux associés        |
+| Tablettes         | longtext        | Liste des tablettes associées       |
+| MrqBlancheNum     | int             | Indicateur de marque blanche        |
+| Upload1, Upload2  | varchar(100)    | Informations d’upload               |
+| Secu2Srv1         | varchar(100)    | Sécurité serveur                    |
+| Info              | varchar(255)    | Informations diverses                |
+| ConfigConnecteur  | longtext        | Contient un XML avec des paramètres supplémentaires |
+| Premium           | tinyint(1)      | Indicateur Premium                   |
+| MDP_Premium       | varchar(100)    | Mot de passe Premium                 |
+| Autorisations_Premium | varchar(255) | Autorisations spécifiques Premium   |
+| ConfigMobile      | longtext        | Configuration spécifique mobile      |
+| DateClient        | date            | Date d’enregistrement du client     |
+| Partenaire        | tinyint(1)      | Indicateur de partenariat           |
+
+---
+
+## 5. API PHP
+
+### 5.1 Authentification (`api/auth.php`)
+- Vérifie l'identifiant et le mot de passe dans la table `Licences2`.
+- Si correct, retourne les informations de configuration sous format JSON.
+
+### 5.2 Récupération des paramètres (`api/get_config.php`)
+- Extrait les informations de la table `Licences2`.
+- Parse les données XML contenues dans `ConfigConnecteur` et les renvoie en JSON.
+
+### 5.3 Sauvegarde des paramètres (`api/save_config.php`)
+- Met à jour les informations de la table `Licences2`.
+- Met à jour les paramètres XML stockés dans `ConfigConnecteur`.
+
+---
+
+## 6. Interface Utilisateur
+
+### 6.1 Page de Connexion
+- Champ **Identifiant**
+- Champ **Mot de passe**
+- Bouton **Connexion**
+
+### 6.2 Page de Configuration
+- **Menu latéral** :
+  - Général
+  - Base de données source
+  - Liaisons externes
+  - Agendas externes
+  - Données à synchroniser
+  - Exclusions de la synchronisation
+  - Complément
+  - Planification
+  - Terminaux
+  - Historique d'importation
+  - Traçabilité
+  - Paramétrage impression
+- **Formulaire** : Affichage et modification des paramètres
+- **Bouton de sauvegarde** : Envoi des modifications
+
+---
+
+## 7. Exigences Techniques
+- Hébergement compatible PHP & MySQL
+- Gestion des sessions sécurisées (PHP sessions)
+- Échanges en JSON
+- Validation des entrées utilisateur
+
+---
+
+## 8. Livrables
+- Code source de l'application
+- Base de données MySQL (structure et données de test)
+- Documentation technique et utilisateur
+- Captures d'écran de l'interface utilisateur
+
+---
+
+## 9. Déploiement
+- Déploiement initial sur un serveur de test
+- Validation avec des données réelles
+- Mise en production sur l’environnement final
+

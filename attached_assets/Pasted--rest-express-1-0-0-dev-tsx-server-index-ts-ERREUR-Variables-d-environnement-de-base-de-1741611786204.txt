@@ -1,0 +1,144 @@
+
+> rest-express@1.0.0 dev
+> tsx server/index.ts
+
+⚠️ ERREUR: Variables d'environnement de base de données HISTOSYNC manquantes dans le fichier .env
+Variables requises: HISTOSYNC_MYSQL_HOST, HISTOSYNC_MYSQL_USER, HISTOSYNC_MYSQL_PASSWORD, HISTOSYNC_MYSQL_DATABASE
+
+=== VÉRIFICATION DES CONNEXIONS AUX BASES DE DONNÉES ===
+Configuration AUTH: {
+  host: undefined,
+  port: undefined,
+  user: undefined,
+  database: undefined
+}
+Configuration SYNC: {
+  host: undefined,
+  port: undefined,
+  user: undefined,
+  database: undefined
+}
+Configuration HISTOSYNC: {
+  host: undefined,
+  port: undefined,
+  user: undefined,
+  database: undefined
+}
+======================================================
+
+⚠️ ERREUR: Variables d'environnement de base de données AUTH manquantes dans le fichier .env
+Variables requises: AUTH_MYSQL_HOST, AUTH_MYSQL_USER, AUTH_MYSQL_PASSWORD, AUTH_MYSQL_DATABASE
+⚠️ ERREUR: Variables d'environnement de base de données SYNC manquantes dans le fichier .env
+Variables requises: SYNC_MYSQL_HOST, SYNC_MYSQL_USER, SYNC_MYSQL_PASSWORD, SYNC_MYSQL_DATABASE
+⚠️ ERREUR: Variables d'environnement de base de données HISTOSYNC manquantes dans le fichier .env
+Variables requises: HISTOSYNC_MYSQL_HOST, HISTOSYNC_MYSQL_USER, HISTOSYNC_MYSQL_PASSWORD, HISTOSYNC_MYSQL_DATABASE
+
+====== VÉRIFICATION DES VARIABLES D'ENVIRONNEMENT ======
+AUTH_MYSQL_HOST: NON DÉFINI
+SYNC_MYSQL_HOST: NON DÉFINI
+HISTOSYNC_MYSQL_HOST: NON DÉFINI
+SESSION_SECRET: DÉFINI
+======================================================
+
+
+====== VÉRIFICATION DES VARIABLES D'ENVIRONNEMENT ======
+AUTH_MYSQL_HOST: sqlprive-dd25990-001.eu.clouddb.ovh.net
+SYNC_MYSQL_HOST: sqlprive-dd25990-001.eu.clouddb.ovh.net
+HISTOSYNC_MYSQL_HOST: dd25990-001.eu.clouddb.ovh.net
+SESSION_SECRET: DÉFINI
+======================================================
+
+1:01:29 PM [express] serving on port 5000
+GET /api/user - isAuthenticated: false
+GET /api/user - session: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-03-11T13:01:40.199Z,
+    originalMaxAge: 86400000,
+    httpOnly: true,
+    secure: false
+  }
+}
+GET /api/user - user: undefined
+1:01:40 PM [express] GET /api/user 401 in 4ms
+GET /api/user - isAuthenticated: false
+GET /api/user - session: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-03-11T13:01:40.346Z,
+    originalMaxAge: 86400000,
+    httpOnly: true,
+    secure: false
+  }
+}
+GET /api/user - user: undefined
+1:01:40 PM [express] GET /api/user 401 in 2ms
+Requête login reçue: { username: 'NUXIDEVA612', password: '372' }
+Passport Strategy - Tentative authentification: { username: 'NUXIDEVA612', password: '372' }
+Tentative de connexion avec: { IDSynchro: 'NUXIDEVA612', IDClient: '372' }
+Database error: Error: connect ECONNREFUSED 127.0.0.1:35217
+    at PromisePool.execute (/home/runner/workspace/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at validateUser (/home/runner/workspace/server/db.ts:80:35)
+    at Strategy._verify (/home/runner/workspace/server/auth.ts:51:28)
+    at Strategy.authenticate (/home/runner/workspace/node_modules/passport-local/lib/strategy.js:90:12)
+    at attempt (/home/runner/workspace/node_modules/passport/lib/middleware/authenticate.js:378:16)
+    at authenticate (/home/runner/workspace/node_modules/passport/lib/middleware/authenticate.js:379:7)
+    at <anonymous> (/home/runner/workspace/server/auth.ts:129:6)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/workspace/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/home/runner/workspace/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at strategy.pass (/home/runner/workspace/node_modules/passport/lib/middleware/authenticate.js:355:9)
+    at SessionStrategy.authenticate (/home/runner/workspace/node_modules/passport/lib/strategies/session.js:126:10)
+    at attempt (/home/runner/workspace/node_modules/passport/lib/middleware/authenticate.js:378:16)
+    at authenticate (/home/runner/workspace/node_modules/passport/lib/middleware/authenticate.js:379:7)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at initialize (/home/runner/workspace/node_modules/passport/lib/middleware/initialize.js:98:5)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at /home/runner/workspace/node_modules/express-session/index.js:514:7
+    at MemoryStore.get (/home/runner/workspace/node_modules/memorystore/lib/memorystore.js:104:23)
+    at session (/home/runner/workspace/node_modules/express-session/index.js:493:11)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at <anonymous> (/home/runner/workspace/server/index.ts:47:3)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/home/runner/workspace/node_modules/body-parser/lib/types/urlencoded.js:85:7)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/runner/workspace/node_modules/express/lib/router/index.js:328:13)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/home/runner/workspace/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/runner/workspace/node_modules/express/lib/router/index.js:280:10)
+    at /home/runner/workspace/node_modules/body-parser/lib/read.js:137:5 {
+  code: 'ECONNREFUSED',
+  errno: -111,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined
+}
+Erreur authentification: Error: Database authentication error
+    at validateUser (/home/runner/workspace/server/db.ts:110:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Strategy._verify (/home/runner/workspace/server/auth.ts:51:22)
+Erreur authentification: Error: Database authentication error
+    at validateUser (/home/runner/workspace/server/db.ts:110:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Strategy._verify (/home/runner/workspace/server/auth.ts:51:22)
+1:01:45 PM [express] POST /api/login 500 in 28ms :: {"message":"Erreur d'authentification"}

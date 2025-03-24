@@ -1,0 +1,17 @@
+La case à cocher 3 états du tableau Historique de synchro doit être accessible en modification. Voici le traitement à effectuer sur le changement d’état, les valeurs sont respectivement 0, 1 et -1 
+Pour ce traitement nous allons impacter 2 tables de la bdd  “syncnuxidev” qui est accessible avec la connexion SYNC_MYSQL et la table “syncsav” qui est accessible à partir de la connexion HISTOSYNC_MYSQL . La structure de syncnuxidev est la même que la structure de syncnuxidev et les enregistrements sont semblables. Vulgairement nous pouvons dire que syncnuxidev est une table de travail, syncsav est une table de sauvegarde
+
+
+
+
+si après l’action du clic la valeur passe à : 
+1 = valeur Coché en Vert, il faut supprimer un enregistrement correspondant de la table syncnuxidev la clause where doit prendre en compte syncnuxidev.IDInterne  = COL_IDInterne AND syncnuxidev.IDSynchro = L'id de synchro saisie au niveau de la page d'authentification , à partir de HISTOSYNC et en utilisant bien le “.env” et par sécurité faire un limite 1 . Puis il faut modifier l'enregistrement correspondant de la table syncsav en passant syncsav.Etat = 1 la clause where pour l’update doit être syncsav.IDInterne  = COL_IDInterne AND syncsav.IDSynchro = L'id de synchro saisie au niveau de la page d'authentification , à partir de HISTOSYNC et en utilisant bien le “.env” et par sécurité faire un limite 1
+
+
+0 = Valeur non cochée, il faut recopier l’enregistrement de syncsav vers syncnuxidev, en utilisant comme clause where IDInterne  = COL_IDInterne AND IDSynchro = L'id de synchro saisie au niveau de la page d'authentification , à partir de HISTOSYNC et en utilisant bien le “.env”. Contrôler avant si l’enregsitrement dans syncnuxidev n’existe pas afin de ne pas avoir de doublon sur l’identifiant IDInterne + IDSynchro . Puis il faut modifier l'enregistrement correspondant de la table syncsav en passant syncsav.Etat = 0 la clause where pour l’update doit être syncsav.IDInterne  = COL_IDInterne AND syncsav.IDSynchro = L'id de synchro saisie au niveau de la page d'authentification , à partir de HISTOSYNC et en utilisant bien le “.env” et par sécurité faire un limite 1
+
+
+
+-1 = Valeur en erreur , il faut supprimer un enregistrement correspondant de la table syncnuxidev la clause where doit prendre en compte syncnuxidev.IDInterne  = COL_IDInterne AND syncnuxidev.IDSynchro = L'id de synchro saisie au niveau de la page d'authentification , à partir de HISTOSYNC et en utilisant bien le “.env” et par sécurité faire un limite 1 . Puis il faut modifier l'enregistrement correspondant de la table syncsav en passant syncsav.Etat = -1 la clause where pour l’update doit être syncsav.IDInterne  = COL_IDInterne AND syncsav.IDSynchro = L'id de synchro saisie au niveau de la page d'authentification , à partir de HISTOSYNC et en utilisant bien le “.env” et par sécurité faire un limite 1
+
+

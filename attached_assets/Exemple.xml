@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SyncNuxiDev>
+  <DateHeureExport>20241225095120419</DateHeureExport>
+  <Device>c10d2a012b5d9c19</Device>
+  <Table>documentdevis</Table>
+  <NDEvenement>A</NDEvenement>
+  <Enregistrement>
+    <DateCreation>20241225095102560</DateCreation>
+    <DateModification>00000000000000000</DateModification>
+    <IDInterne>XX_652015904063</IDInterne>
+    <Code>XX_652015904063</Code>
+    <TypeDocument>DEVIS</TypeDocument>
+    <IDInterneSsTypeDoc />
+    <IDInterneDepot />
+    <VolumeTotal>0</VolumeTotal>
+    <PoidsTotal>0</PoidsTotal>
+    <IdInterneDocument_DevisLie />
+    <IdInterneDocument_CommandeLie />
+    <IdInterneDocument_Facture />
+    <IdInterneDocument_BL />
+    <IDInerneTiers>CISEL</IDInerneTiers>
+    <CodeTiers>CISEL</CodeTiers>
+    <FacturationNom>Ciselure</FacturationNom>
+    <Livraison_Contact_Tel>04 77 33 25 88</Livraison_Contact_Tel>
+    <Facturation_Adresse1>Rue des Quais</Facturation_Adresse1>
+    <Livraison_Contact_Mail />
+    <Facturation_Adresse2 />
+    <Facturation_Adresse3 />
+    <Facturation_CP>42000</Facturation_CP>
+    <Facturation_Ville>SAINT ETIENNE</Facturation_Ville>
+    <Facturation_IDInternePays />
+    <Facturation_Contact_Civilite />
+    <Facturation_Contact_Nom>ELIZABETH LECUREUIL</Facturation_Contact_Nom>
+    <Facturation_Contact_Prenom />
+    <Facturation_Contact_Tel>04 77 33 25 88</Facturation_Contact_Tel>
+    <Facturation_Contact_Mail />
+    <LivraisonNom>Ciselure</LivraisonNom>
+    <Livraison_Adresse1>Rue des Quais</Livraison_Adresse1>
+    <Livraison_Adresse2 />
+    <Livraison_Adresse3 />
+    <Livraison_CP>42000</Livraison_CP>
+    <Livraison_Ville>SAINT ETIENNE</Livraison_Ville>
+    <Livraison_IDInternePays />
+    <Livraison_Contact_Civilite />
+    <Livraison_Contact_Nom />
+    <Livraison_contact_Prenom />
+    <IDInterneModeReglement>2</IDInterneModeReglement>
+    <DateValidite />
+    <DateLivraison />
+    <EtatLivraison />
+    <SoldeDu>11111511</SoldeDu>
+    <MontantBrutHT>11111511</MontantBrutHT>
+    <PrixRevient>645</PrixRevient>
+    <PrcRemisePied>0</PrcRemisePied>
+    <MontantNetHT>11111511</MontantNetHT>
+    <PortFraisHT>0</PortFraisHT>
+    <PortTauxTva>0</PortTauxTva>
+    <MontantNetNetHT>11111511</MontantNetNetHT>
+    <EcoTaxeHT>0</EcoTaxeHT>
+    <PortFraisTTC>0</PortFraisTTC>
+    <EcoTaxeTTC>0</EcoTaxeTTC>
+    <MontantNetNetTTC>11111511</MontantNetNetTTC>
+    <MontantAcompte>0</MontantAcompte>
+    <IDInterneMoyenPaiementAcpte />
+    <PrcEscompte>0</PrcEscompte>
+    <MontantEscompte>0</MontantEscompte>
+    <NetAPayer>11111511</NetAPayer>
+    <NombreColis>1</NombreColis>
+    <IDInterneCollaborateur>7</IDInterneCollaborateur>
+    <Signature />
+    <NomSignature />
+    <Note />
+    <NDChampsSpec />
+    <IDInterneAffaire />
+    <Document_Date>20241225</Document_Date>
+    <NomTiers>Ciselure</NomTiers>
+    <NumDocOrigine />
+    <Etape />
+    <Livraison_Pays />
+    <Facturation_Pays />
+    <Libelle />
+    <Status />
+    <IDInerneTVA1 />
+    <IDInerneTVA2>C20</IDInerneTVA2>
+    <IDInerneTVA3 />
+    <IDInerneTVA4 />
+    <IDInerneTVA5 />
+    <TauxTVA1>0</TauxTVA1>
+    <TauxTVA2>20</TauxTVA2>
+    <TauxTVA3>0</TauxTVA3>
+    <TauxTVA4>0</TauxTVA4>
+    <TauxTVA5>0</TauxTVA5>
+    <MontantTVA1>0</MontantTVA1>
+    <MontantTVA2>0</MontantTVA2>
+    <MontantTVA3>0</MontantTVA3>
+    <MontantTVA4>0</MontantTVA4>
+    <MontantTVA5>0</MontantTVA5>
+    <BaseHT1>11111511</BaseHT1>
+    <BaseHT2>0</BaseHT2>
+    <BaseHT3>0</BaseHT3>
+    <BaseHT4>0</BaseHT4>
+    <BaseHT5>0</BaseHT5>
+    <MontantRemisePied>0</MontantRemisePied>
+    <IDInterneTVA_Port />
+    <CompteurCode>0</CompteurCode>
+    <IDInterne_Incident />
+    <iDInterne_Contrat />
+    <FenSpecifique />
+    <Facturation_Civilite />
+    <Livraison_Civilite />
+    <IDInterne_Affaire />
+    <Code_Affaire />
+    <IDInterne_Chantier />
+    <Code_Chantier />
+    <DuplicationEnUnClic>0</DuplicationEnUnClic>
+    <IDInterne_DocOrigine />
+    <NumEngagement />
+    <Facturation_Contact_GSM />
+    <Livraison_Contact_GSM />
+    <Transporteur />
+    <Data_PdfDynamique />
+    <Lignes>
+      <Ligne>
+        <Ligne_DateCreation>20241225095105526</Ligne_DateCreation>
+        <Ligne_DateModification>00000000000000000</Ligne_DateModification>
+        <Ligne_Code>{c54ce05e-f069-4816-8f3c-bff0f67cb5d7}</Ligne_Code>
+        <Ligne_RefNiveauHierarchie />
+        <Ligne_IDInterne>{c54ce05e-f069-4816-8f3c-bff0f67cb5d7}</Ligne_IDInterne>
+        <Ligne_Designation>ARTICLETEST</Ligne_Designation>
+        <Ligne_idInterneDocument>XX_652015904063</Ligne_idInterneDocument>
+        <Ligne_NumeroLigne>1</Ligne_NumeroLigne>
+        <Ligne_CodeArticle>ART0001</Ligne_CodeArticle>
+        <Ligne_IDInerneArticle>ART0001</Ligne_IDInerneArticle>
+        <Ligne_Quantite>1</Ligne_Quantite>
+        <Ligne_IDInerneUnite>1</Ligne_IDInerneUnite>
+        <Ligne_SerieLotNumero />
+        <Ligne_SerieLotDateLimite />
+        <Ligne_SerieLotQuantite />
+        <Ligne_VolumeTotal>0</Ligne_VolumeTotal>
+        <Ligne_PoidsTotal>0</Ligne_PoidsTotal>
+        <Ligne_PrixAchat>0</Ligne_PrixAchat>
+        <Ligne_PrixVenteBrutHT>400</Ligne_PrixVenteBrutHT>
+        <Ligne_PrcRemise>0</Ligne_PrcRemise>
+        <Ligne_PrixRevient>0</Ligne_PrixRevient>
+        <Ligne_MontantRemise>0</Ligne_MontantRemise>
+        <Ligne_TauxTVA>0</Ligne_TauxTVA>
+        <Ligne_MontantTva>0</Ligne_MontantTva>
+        <Ligne_MontantEcoTaxeHT>0</Ligne_MontantEcoTaxeHT>
+        <Ligne_MontantEcoTaxeTTC>0</Ligne_MontantEcoTaxeTTC>
+        <Ligne_QuantiteCommandee>0</Ligne_QuantiteCommandee>
+        <Ligne_QuantiteLIvree>0</Ligne_QuantiteLIvree>
+        <Ligne_Reliquat>0</Ligne_Reliquat>
+        <Ligne_IDInerneUnite_Volume>0</Ligne_IDInerneUnite_Volume>
+        <Ligne_IDInerneUnite_Poids>3</Ligne_IDInerneUnite_Poids>
+        <Ligne_MontantNetHT>400</Ligne_MontantNetHT>
+        <Ligne_Composant>0</Ligne_Composant>
+        <Ligne_Lie>0</Ligne_Lie>
+        <Ligne_RefNiveauPere />
+        <Ligne_IDInterne_Affaire />
+        <Ligne_ValoriserLieCompose>0</Ligne_ValoriserLieCompose>
+        <Ligne_MontantNetTTC>400</Ligne_MontantNetTTC>
+        <Ligne_idinterneTVA />
+        <Ligne_PoidsUnitaire>0</Ligne_PoidsUnitaire>
+        <Ligne_QuantifierLieCompose>0</Ligne_QuantifierLieCompose>
+        <Ligne_NombreDeColis>0</Ligne_NombreDeColis>
+        <Ligne_Niveau>0</Ligne_Niveau>
+        <Ligne_IDInterneOrigine />
+        <Ligne_InfoLigne />
+        <Ligne_DerPrixInfo />
+        <Ligne_NePasRemonterCetteLigne>0</Ligne_NePasRemonterCetteLigne>
+        <Ligne_Code_Affaire />
+        <Ligne_IDInterne_Chantier />
+        <Ligne_Code_Chantier />
+        <Ligne_FenSpecifique />
+      </Ligne>
+      <Ligne>
+        <Ligne_DateCreation>20241225095106616</Ligne_DateCreation>
+        <Ligne_DateModification>00000000000000000</Ligne_DateModification>
+        <Ligne_Code>{3caaf02b-0241-42a5-9744-904e5dd79a01}</Ligne_Code>
+        <Ligne_RefNiveauHierarchie />
+        <Ligne_IDInterne>{3caaf02b-0241-42a5-9744-904e5dd79a01}</Ligne_IDInterne>
+        <Ligne_Designation>Article lot</Ligne_Designation>
+        <Ligne_idInterneDocument>XX_652015904063</Ligne_idInterneDocument>
+        <Ligne_NumeroLigne>2</Ligne_NumeroLigne>
+        <Ligne_CodeArticle>ARTSERIE002</Ligne_CodeArticle>
+        <Ligne_IDInerneArticle>ARTSERIE002</Ligne_IDInerneArticle>
+        <Ligne_Quantite>1</Ligne_Quantite>
+        <Ligne_IDInerneUnite>1</Ligne_IDInerneUnite>
+        <Ligne_SerieLotNumero />
+        <Ligne_SerieLotDateLimite />
+        <Ligne_SerieLotQuantite />
+        <Ligne_VolumeTotal>0</Ligne_VolumeTotal>
+        <Ligne_PoidsTotal>0</Ligne_PoidsTotal>
+        <Ligne_PrixAchat>0</Ligne_PrixAchat>
+        <Ligne_PrixVenteBrutHT>0</Ligne_PrixVenteBrutHT>
+        <Ligne_PrcRemise>0</Ligne_PrcRemise>
+        <Ligne_PrixRevient>0</Ligne_PrixRevient>
+        <Ligne_MontantRemise>0</Ligne_MontantRemise>
+        <Ligne_TauxTVA>20</Ligne_TauxTVA>
+        <Ligne_MontantTva>0</Ligne_MontantTva>
+        <Ligne_MontantEcoTaxeHT>0</Ligne_MontantEcoTaxeHT>
+        <Ligne_MontantEcoTaxeTTC>0</Ligne_MontantEcoTaxeTTC>
+        <Ligne_QuantiteCommandee>0</Ligne_QuantiteCommandee>
+        <Ligne_QuantiteLIvree>0</Ligne_QuantiteLIvree>
+        <Ligne_Reliquat>0</Ligne_Reliquat>
+        <Ligne_IDInerneUnite_Volume>0</Ligne_IDInerneUnite_Volume>
+        <Ligne_IDInerneUnite_Poids>3</Ligne_IDInerneUnite_Poids>
+        <Ligne_MontantNetHT>0</Ligne_MontantNetHT>
+        <Ligne_Composant>0</Ligne_Composant>
+        <Ligne_Lie>0</Ligne_Lie>
+        <Ligne_RefNiveauPere />
+        <Ligne_IDInterne_Affaire />
+        <Ligne_ValoriserLieCompose>0</Ligne_ValoriserLieCompose>
+        <Ligne_MontantNetTTC>0</Ligne_MontantNetTTC>
+        <Ligne_idinterneTVA>C20</Ligne_idinterneTVA>
+        <Ligne_PoidsUnitaire>0</Ligne_PoidsUnitaire>
+        <Ligne_QuantifierLieCompose>0</Ligne_QuantifierLieCompose>
+        <Ligne_NombreDeColis>0</Ligne_NombreDeColis>
+        <Ligne_Niveau>0</Ligne_Niveau>
+        <Ligne_IDInterneOrigine />
+        <Ligne_InfoLigne />
+        <Ligne_DerPrixInfo />
+        <Ligne_NePasRemonterCetteLigne>0</Ligne_NePasRemonterCetteLigne>
+        <Ligne_Code_Affaire />
+        <Ligne_IDInterne_Chantier />
+        <Ligne_Code_Chantier />
+        <Ligne_FenSpecifique />
+      </Ligne>
+      <Ligne>
+        <Ligne_DateCreation>20241225095108056</Ligne_DateCreation>
+        <Ligne_DateModification>00000000000000000</Ligne_DateModification>
+        <Ligne_Code>{341fd175-3c31-4f0e-9c9a-8ebc9036165f}</Ligne_Code>
+        <Ligne_RefNiveauHierarchie />
+        <Ligne_IDInterne>{341fd175-3c31-4f0e-9c9a-8ebc9036165f}</Ligne_IDInterne>
+        <Ligne_Designation>Bague Or et pierres</Ligne_Designation>
+        <Ligne_idInterneDocument>XX_652015904063</Ligne_idInterneDocument>
+        <Ligne_NumeroLigne>3</Ligne_NumeroLigne>
+        <Ligne_CodeArticle>BAOR01</Ligne_CodeArticle>
+        <Ligne_IDInerneArticle>BAOR01</Ligne_IDInerneArticle>
+        <Ligne_Quantite>1</Ligne_Quantite>
+        <Ligne_IDInerneUnite>4</Ligne_IDInerneUnite>
+        <Ligne_SerieLotNumero />
+        <Ligne_SerieLotDateLimite />
+        <Ligne_SerieLotQuantite />
+        <Ligne_VolumeTotal>0</Ligne_VolumeTotal>
+        <Ligne_PoidsTotal>0</Ligne_PoidsTotal>
+        <Ligne_PrixAchat>280</Ligne_PrixAchat>
+        <Ligne_PrixVenteBrutHT>11111111</Ligne_PrixVenteBrutHT>
+        <Ligne_PrcRemise>0</Ligne_PrcRemise>
+        <Ligne_PrixRevient>645</Ligne_PrixRevient>
+        <Ligne_MontantRemise>0</Ligne_MontantRemise>
+        <Ligne_TauxTVA>0</Ligne_TauxTVA>
+        <Ligne_MontantTva>0</Ligne_MontantTva>
+        <Ligne_MontantEcoTaxeHT>0</Ligne_MontantEcoTaxeHT>
+        <Ligne_MontantEcoTaxeTTC>0</Ligne_MontantEcoTaxeTTC>
+        <Ligne_QuantiteCommandee>0</Ligne_QuantiteCommandee>
+        <Ligne_QuantiteLIvree>0</Ligne_QuantiteLIvree>
+        <Ligne_Reliquat>0</Ligne_Reliquat>
+        <Ligne_IDInerneUnite_Volume>0</Ligne_IDInerneUnite_Volume>
+        <Ligne_IDInerneUnite_Poids>3</Ligne_IDInerneUnite_Poids>
+        <Ligne_MontantNetHT>11111111</Ligne_MontantNetHT>
+        <Ligne_Composant>0</Ligne_Composant>
+        <Ligne_Lie>0</Ligne_Lie>
+        <Ligne_RefNiveauPere />
+        <Ligne_IDInterne_Affaire />
+        <Ligne_ValoriserLieCompose>0</Ligne_ValoriserLieCompose>
+        <Ligne_MontantNetTTC>11111111</Ligne_MontantNetTTC>
+        <Ligne_idinterneTVA />
+        <Ligne_PoidsUnitaire>17</Ligne_PoidsUnitaire>
+        <Ligne_QuantifierLieCompose>0</Ligne_QuantifierLieCompose>
+        <Ligne_NombreDeColis>0</Ligne_NombreDeColis>
+        <Ligne_Niveau>0</Ligne_Niveau>
+        <Ligne_IDInterneOrigine />
+        <Ligne_InfoLigne />
+        <Ligne_DerPrixInfo />
+        <Ligne_NePasRemonterCetteLigne>0</Ligne_NePasRemonterCetteLigne>
+        <Ligne_Code_Affaire />
+        <Ligne_IDInterne_Chantier />
+        <Ligne_Code_Chantier />
+        <Ligne_FenSpecifique />
+      </Ligne>
+    </Lignes>
+  </Enregistrement>
+</SyncNuxiDev>
